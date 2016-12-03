@@ -1,0 +1,4554 @@
+/*
+Theme Name: Food Court
+Theme URI: http://kodeforest.net/wp-demo/bookstore
+Description: Food Court Html Theme
+Author: KodeForest
+Author URI: http://www.kodeforest.com
+Version: 1.0
+License: 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, yellow, two-columns, fluid-layout, custom-background, custom-colors, featured-images, theme-options
+Text Domain: Food-Court
+*/
+/**
+ * Table of Contents :
+ *
+* 1.0 -  DEFAULT CSS START
+* 2.0 -  HEADER CSS START
+* 3.0 -  HEADER 2 CSS START
+* 4.0 -  HEADER 3 CSS START
+* 5.0 -  STICKY HEADER CSS START
+* 6.0 -  BANNER CSS START
+* 7.0 -  INNER BANNER CSS START
+* 8.0 -  ABOUT US CSS START
+* 9.0 -  RESERVATION CSS START
+* 10.0 - OUR MENU CSS START
+* 11.0 - GALLERY 2 CSS START
+* 12.0 - OUR MASTER CHEFF CSS START
+* 13.0 - OUR BLOG 3 CSS START
+* 14.0 - BLOG 1 CSS START
+* 15.0 - SIDEBAR CSS START
+* 16.0 - BLOG DETAIL CSS START
+* 17.0 - MENU PARALLAX CSS START
+* 18.0 - RECIPE SINGLE CSS START
+* 19.1 - CONTACT US CSS START
+* 20.0 - 404 PAGE CSS START
+* 21.0 - FOOTER CSS START
+* 22.0 - COMING SOON CSS START
+* 23.0 - Sign up Form CSS
+
+[Color codes]
+
+Background: #ffffff (white)
+Content: #ff401b (light black)
+Header: #ffffff (green)
+
+a (standard): #ffffff (dark blue)
+a (visited): #ffffff (light blue)
+a (active): #ffffff (pink)
+
+[Typography]
+  
+Body copy:  16px/ font-family: 'Lato', sans-serif; color:#999999;
+Headers:  font-family: 'Roboto', sans-serif;
+Input, textarea: font-family: 'Lusitana', serif;
+Sidebar heading: font-family: 'Lusitana', serif;
+
+-------------------------------------------------------------------*/
+/*
+	  ==============================================================
+		   DEFAULT CSS START
+	  ==============================================================
+*/
+.kode_wrapper,
+header,
+section,
+.kf_content_wrap,
+footer{
+	float:left;
+	width:100%;
+}
+footer{
+
+	
+}
+
+section,
+.kf_footer_bg{
+	padding:70px 0px 40px;	
+}
+
+/*
+	  ==============================================================
+		   HEADER CSS START
+	  ==============================================================
+*/
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999999;
+	background-color: transparent;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+.kode-top-bar{
+	float:left;
+	width:100%;
+	background:transparent;
+	border-bottom:1px solid rgba(225, 225, 225, 0.5);
+}
+.lungueg-wrap{
+	border-right:1px solid rgba(225, 225, 225, 0.5);
+	padding:24px 0px 25px;
+}
+.lungueg-wrap li{
+	float:left;
+	margin-right:20px;
+}
+.lungueg-wrap li a{
+	display:block;
+	color:#fff;
+	font-size:16px;
+	text-transform:uppercase;
+	line-height:16px;
+	font-family: 'Roboto', sans-serif;
+}
+/*social icons*/
+.kode-top-bar .social-style-1{
+    padding: 20px 30px 19px 0;
+}
+.kode-top-bar .social-style-1 li a{
+    color: #fff;
+}
+.kode-top-bar .social-style-1 li a:hover{
+	animation:1s ease-in-out 0s normal none infinite pulse;
+}
+/*searh button*/
+.searchlink{
+	float:right;
+	width:87px;
+	line-height:65px;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	border-style:solid;
+    cursor: pointer;
+	border-width:0 1px 0 1px;
+	border-color:rgba(225, 225, 225, 0.5);
+	position: relative;
+}
+.searchform {
+    top: 100%;
+    cursor: default;
+    display: none;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    z-index: 5;
+}
+.searchform input[type="text"]{
+	float: left;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size:14px; 
+	padding: 0 10px; 
+	color: #999;
+}
+.searchform input[type="text"]::-webkit-input-placeholder {color: #999; opacity: 1;}
+.searchform input[type="text"]:-moz-placeholder { color: #999; opacity: 1; }
+.searchform input[type="text"]::-moz-placeholder { color: #999; opacity: 1; }
+.searchform input[type="text"]:-ms-input-placeholder {color: #999; opacity: 1;}
+
+.searchlink i{
+	display:block;
+	line-height:65px;
+}
+.kode_ui_element .dl-menuwrapper{
+	display:none;
+}
+/*logo strat*/
+.kode-logo{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding:50px 0 27px;
+}
+.kode-logo a{
+	display: inline-block;
+}
+/*NAVIGATION START*/
+.kode_navigation_outr_wrap {
+    float: left;
+    text-align: center;
+    width: 100%;
+    line-height: 16px;
+}
+.kode_menu {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.kode_menu ul {
+    border-bottom:1px solid rgba(225, 225, 225, 0.5);
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+.kode_menu ul li{
+	display:inline-block;
+	position: relative;
+	margin-right: 39px;
+}
+.kode_menu ul li a{
+	display:block;
+	font-size:16px;
+	line-height:16px;
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'Roboto', sans-serif;
+	position:relative;
+	padding:0 16px 13px 0;
+}
+.kode_menu ul li:last-child,
+.kode_menu ul li:last-child a{
+	margin: 0;
+}
+.kode_menu ul .active a:before,
+.kode_menu ul li a:before{
+	content:"";
+	left:0;
+	right:0;
+	bottom:-3px;
+	height:5px;
+	width:0%;
+	position:absolute;
+}
+.kode_menu ul .active > a:before,
+.kode_menu ul li:hover a:before{
+	width:100%;
+}
+/*second ul*/
+.kode_menu ul li:hover ul{
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);
+}
+.kode_menu ul ul {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-style: solid none none;
+    border-top-width: 3px;
+    border-color: #fff;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.12);
+    list-style: outside none none;
+    margin: 3px 0 0;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    z-index: 10;
+    left: 0;
+    background-color: #000;
+    transform:scale(0);
+	-moz-transform:scale(0);
+	-webkit-transform:scale(0);
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode_menu ul ul::before {
+    color: inherit;
+    content: "";
+    display: block;
+    font-family: "FontAwesome";
+    left: 20px;
+    position: absolute;
+    top: -14px;
+    color: #fff;
+}
+.kode_menu ul ul li{
+	display: block;
+	margin-right: 0;
+}
+.kode_menu ul ul li a {
+    display: block;
+    margin-right: 0;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 14px;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	color:#ccc;
+}
+.kode_menu ul ul li a:hover{
+	background-color: rgba(255, 255, 255, 1);
+}
+.kode_menu ul ul .active a::before,
+.kode_menu ul ul li a::before{
+	height: 0;
+}
+/*header2*/
+.header2 .kode-top-bar{
+	border: none;
+}
+.header2 .lungueg-wrap {
+    border-bottom: 1px solid rgba(225, 225, 225, 0.5);
+    border-right:none;
+}
+.header2 .lungueg-wrap li:last-child{
+	margin-right: 0;
+}
+.header2 .social-style-1{
+	border-bottom: 1px solid rgba(225, 225, 225, 0.5);
+	padding-right: 0;
+}
+.header2 .searchlink{
+	display: none;
+}
+.header2 .kode-logo{
+	padding-top:0;
+}
+.header2 .kode-logo a{
+	display: inline-block;
+	width: 17.3%;
+}
+/*responcive menu*/
+.kode_navigation3_wrap .dl-menuwrapper .dl-menu,
+.kode_navigation_outr_wrap .dl-menuwrapper .dl-menu{
+	right: 0;
+}
+.kode_menu ul li.active ul a::before{
+		height:0;
+}
+.kode_menu ul ul li:hover a{
+	color:#be951f;	
+}
+/*
+	  ==============================================================
+		 HEADER 3 CSS START
+	  ==============================================================
+*/
+.header-3 .dl-menuwrapper{
+	display: none;
+}
+.header-3{
+	position: inherit;
+	background: #f2f2f2;
+}
+.header-3 .kode-top-bar3{
+	background-color: #4d4849;
+	line-height: 14px;
+}
+.lung-wrap{
+	padding: 15px 0 16px;
+	float: left;
+}
+.lung-wrap li{
+	display: inline-block;
+	margin-right: 13px;
+	line-height: 14px;
+}
+.lung-wrap li img{
+	float: left;
+	width: 16px;
+	height: 11px;
+	margin-right: 14px;
+}
+.lung-wrap .btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    min-height: 11px;
+    width: inherit;
+    text-transform: uppercase;
+    color: #ccc;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 20px 0 0;
+    line-height: 11px;
+    position: relative;
+}
+.lung-wrap .dropdown, .dropup {
+    float: left;
+    position: relative;
+    width: 100%;
+    line-height: 8px;
+}
+.lung-wrap .dropdown:before{
+	content: "";
+	right: 0px;
+	top: 50%;
+	margin-top: -3px;
+ 	color: #ccc;
+	font-size: 14px;
+	position: absolute;
+	font-family: FontAwesome;
+}
+.lung-wrap .btn-primary.active.focus, .btn-primary.active:focus,
+.lung-wrap .btn-primary.active:hover, .btn-primary.focus:active,
+.lung-wrap .btn-primary:active:focus, .btn-primary:active:hover,
+.lung-wrap .open > .dropdown-toggle.btn-primary.focus,
+.lung-wrap .open > .dropdown-toggle.btn-primary:focus,
+.lung-wrap.open > .dropdown-toggle.btn-primary:hover,
+.lung-wrap .btn-primary.active,.lung-wrap .btn-primary:active, .open > .dropdown-toggle.btn-primary{
+	background: transparent;
+}
+.lung-wrap .drop li {
+    color: #ccc;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 11px;
+    line-height: 11px;
+    padding: 0px 20px 0 0;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+}
+.lung-wrap .btn .caret {
+    color: #ccc;
+    display: block;
+    font-size: 0px;
+    height: 11px;
+    padding: 0px;
+    width: 100%;
+    top: 50%;
+    margin-top: -7px;
+}
+.lung-wrap li a{
+	float:left;
+	font-size: 14px;
+	color: #ccc;
+	text-transform: uppercase;
+	line-height: 11px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.lung-wrap .dropdown-menu{
+	top: 100%;
+}
+.lung-wrap .dropdown-menu {
+    border-radius: 0px;
+    overflow: hidden;
+    margin-top: 10px;
+    padding:0;
+}
+.lung-wrap .dropdown-menu li{
+	margin: 0;
+	padding: 10px;
+	color: #333;
+	height: auto!important;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.lung-wrap .dropdown-menu > li:hover {
+    color: #fff;
+}
+.admin-wrap{
+	float: left;
+	padding: 15px 50px 18px 0;
+}
+.admin-wrap li{
+	display: inline-block;
+	margin-right: 43px;
+}
+.admin-wrap li a{
+	font-size: 14px;
+	color: #ccc;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 11px;
+	text-transform: capitalize;
+	float: left;
+}
+.kode-top-bar3 .admin-wrap li i,
+.lung-wrap li i {
+    float: left;
+    font-size: 14px;
+    height: 11px;
+    line-height: 11px;
+    margin-right: 15px;
+    color: #fff;
+}
+.kode-top-bar3 .pull-right{
+	position: relative;
+}
+.cart{
+	right:0;
+	width: 48px;
+	height: 63px;
+	text-align: center;
+	line-height: 49px;
+	font-size: 24px;
+	color: #4d4849;
+	background: #f6d98f;
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+}
+.cart i
+{
+	display: block;
+	text-align: center; 
+	color: #4d4849;
+	position: relative;
+	line-height: 49px;
+}
+.cart i span{
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	line-height: 12px;
+	font-size: 10px;
+	text-align: center;
+	color: #fff;
+	border-radius: 100%;
+	background-color: #c55842;
+	top: 5px;
+	right: 5px;
+}
+.cart:before{
+	position: absolute;
+	content: "";
+	top: 100%;
+	width: 0;
+	height: 0;
+	left: 0;
+	border-style: solid;
+	border-width: 10px 24px 0 0;
+	border-color: #f6d98f  transparent transparent transparent;
+
+}
+.cart:after{
+	position: absolute;
+	content: "";
+	top: 100%;
+	width: 0;
+	height: 0;
+	right: 0;
+	border-style: solid;
+	border-width: 0 24px 10px 0;
+	border-color: transparent #f6d98f  transparent transparent;
+
+}
+.shoppingform {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #45484a 0%, #2a2b2c 100%) repeat scroll 0 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 3px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: none;
+    position: absolute;
+    right: 0;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+    top: 72px;
+    width: 218px;
+    z-index: 9999;
+}
+.cart_list{
+	list-style: outside none none;
+    margin: 0;
+    max-height: 395px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 15px;
+}
+.cart_list li {
+    margin: 20px 0 0;
+    min-height: 60px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.remove {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: none;
+    font-size: 18px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    line-height: 18px;
+    top: 0px;
+}
+.remove:hover{
+	color: #fff;
+}
+.cart_list li .thumb{
+    
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: none;
+}
+.cart_list li a img{
+	float: left;
+	width: 70px;
+}
+.quantity{
+	background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    vertical-align: baseline;
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+.quantity strong {
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.amount {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.amount span {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    vertical-align: top;
+}
+
+.popoverButtons{
+    padding: 15px;
+    float: left;
+    width: 100%;
+}
+.hudbtn {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #3a3a3b 0%, #343434 100%) repeat scroll 0 0;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #6d6d6e inset;
+    color: #d9d9d9;
+    height: 24px;
+    padding: 0 12px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    float: left;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+.hudbtn:hover{
+	color: #fff;
+}
+.hudbtn.primary {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #97c865 0%, #44933d 100%) repeat scroll 0 0;
+    border-color: #3d7530;
+    box-shadow: 0 1px 0 #d8e994 inset;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    text-transform: capitalize;
+}
+.kode_navigation3_wrap {
+    background: transparent;
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.kode-logo3{
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: -30px auto 0;
+	background: #f2f2f2;
+	border-radius: 100%;
+	z-index: 10;
+	width: 209px;
+	height: 209px;
+	line-height: 209px;
+}
+.kode-logo3 a{
+	display: block;
+}
+.navigation3 {
+    padding: 37px 0;
+}
+.navigation3 ul{
+	float: left;
+}
+.navigation3 li{
+	float: left;
+}
+.navigation3 ul li{
+	float: left;
+	margin-right: 50px;
+	position: relative;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+}
+.navigation3 ul li:last-child{
+	margin: 0;
+}
+.navigation3 ul li a{
+	color: #4d4849;
+	font-size: 15px;
+	line-height: 15px;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	text-transform: uppercase;
+	padding: 23px 5px 23px;
+	display: block;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+}
+.navigation3 ul li a:before{
+	content: "";
+	left: 0;
+	right: 0;
+	bottom: 4px;
+	height: 2px;
+	width: 0%;
+	position: absolute;
+	background: #4d4849;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+}
+.navigation3 ul li a:after{
+	content: "";
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	height: 10px;
+	width: 10px;
+	margin: 0 auto;
+	position: absolute;
+	background: #4d4849;
+	opacity: 0;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+}
+.navigation3 ul li.active a:before,
+.navigation3 ul li a:hover:before{
+	width: 100%;
+}
+.navigation3 > ul li.active a:after,
+.navigation3 > ul li a:hover:after{
+	opacity: 1;
+}
+/*second ul*/
+.navigation3 ul li:hover ul{
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);
+}
+.navigation3 ul ul {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.12);
+    list-style: outside none none;
+    margin: 0 0;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    z-index: 10;
+    left: 0;
+    background-color: #000;
+    transform:scale(0);
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+}
+.navigation3 ul ul::before {
+    color: inherit;
+    content: "";
+    display: block;
+    font-family: "FontAwesome";
+    left: 23px;
+    position: absolute;
+    top: -17px;
+    color: #000;
+}
+.navigation3 ul ul li{
+	display: block;
+	margin-right: 0;
+}
+.navigation3 ul ul li a {
+    display: block;
+    margin-right: 0;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 14px;
+    width: 100%;
+    color: #fff;
+}
+.navigation3 ul ul li a:after,
+.navigation3 ul ul li a:before{
+	width: 0;
+}
+.navigation3 ul ul li a:hover{
+	background-color: rgba(255, 255, 255, 1);
+	color: #000;
+}
+.navigation3 ul ul .active a::before,
+.navigation3 ul ul li a::before{
+	height: 0;
+}
+.navigation3 ul ul li{
+	margin-right: 0;
+	width: 100%;
+}
+/*
+	  ==============================================================
+		  STICKY HEADER CSS START
+	  ==============================================================
+*/
+	header.sticky {
+	    position: fixed;
+	    width: 100%;
+	    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+	    text-align: left;
+	}
+	header.sticky .kode-top-bar{
+		display: none;
+	}
+	header.sticky .kode-logo{
+		padding: 5px 0;
+		width: 10.8%;
+		text-align: left;
+	}
+	header.sticky .kode-logo a{
+		width: 100%;
+	}
+	header.sticky  .kode_navigation_outr_wrap {
+	    float: right;
+	    margin: 33px 0;
+	    width: auto;
+	}
+	header.sticky  .kode_menu ul li{
+		margin-right:36px;
+	}
+	header.sticky .kode_menu ul ul li{
+		margin:0px;
+	}
+	header.sticky .kode_menu ul li:last-child{
+		margin:0;
+	}
+	/*sticky*/
+	.header-3.sticky{
+		background: #f2f2f2;
+	}
+	.header-3.sticky .kode-top-bar3{
+	    display: none;
+	}
+	.header-3.sticky .navigation3 {
+	    padding: 5px 0 30px;
+	}
+	.header-3.sticky .kode-logo3{
+		width: 126px;
+		height: 126px;
+		line-height: 154px;
+	}
+/*
+	  ==============================================================
+		   BANNER CSS START
+	  ==============================================================
+*/
+
+.kode-home-banner{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.kode-home-banner .bx-wrapper .bx-viewport {
+    background: transparent;
+    border: none;
+    box-shadow:none;
+    left: 0px;
+    transform: translateZ(0px);
+}
+.kode-home-banner .bx-controls-direction,
+.kode-home-banner .bx-pager.bx-default-pager{
+	display: none;
+}
+.kode-home-banner .bxslider li{
+	background-color: #000;
+}
+.kode-home-banner .bxslider li img{
+	height: 877px;
+	float: left;
+	width:100%; 
+}
+.kode-home-banner .bxslider li:before{
+	background-color:rgba(0, 0, 0, 0.65);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	content: "";
+}
+.kode_caption{
+	position: absolute;
+	top: 56%;
+	left: 0;
+	right: 0;
+	margin: -2px auto 0;
+	text-align: center;
+}
+.kode_caption h6 {
+    color: #c8c8c8;
+    font-size: 34px;
+    line-height: 34px;
+    text-transform: capitalize;
+    margin-bottom: 22px
+}
+.kode_caption h2 {
+    color: #fff;
+    font-size: 72px;
+    line-height: 72px;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
+.kode_caption p {
+    padding: 0 150px;
+    text-transform: capitalize;
+    color: #c8c8c8;
+    margin-bottom: 36px;
+}
+.kode_caption .kode_link_2{
+    font-size: 20px;
+    line-height: 20px;
+    padding: 23px 35px 22px;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode_caption .kode_link_2 i {
+    line-height: 20px;
+    margin-left: 15px;
+}
+.kode_caption span{
+	display:block;	
+}
+/*banner 2*/
+.banner2 .bxslider li img{
+	height: auto;
+}
+.banner2 .kode_caption{
+	margin-top: -23px;
+	top:50%;
+}
+/*banner 3*/
+.banner-3 .kode_caption {
+    margin: -154px auto 0;
+    top: 50%;
+}
+.kode-home-banner.banner-3 .bxslider li img{
+	height: auto;
+}
+/*
+	  ==============================================================
+		   INNER BANNER CSS START
+	  ==============================================================
+*/
+.kode-inner-banner{
+	background-image: url(extra-images/counter-up-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: center;
+	padding: 112px 0 68px;
+	text-align: center;
+	position: relative;
+}
+.kode-inner-banner:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.8;
+}
+.kode-inner-banner .container{
+	position: relative;
+}
+.kode-inner-banner h6{
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-size: 48px;
+	line-height: 48px;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.kode-inner-banner .breadcrumb {
+    background-color: transparent;
+    border-radius: 0px;
+    list-style: outside none none;
+    margin-bottom: 0px;
+    padding:0;
+}
+.kode-inner-banner .breadcrumb li{
+	position: relative;
+}
+.kode-inner-banner .breadcrumb li:before{
+	position: absolute;
+	content: "/";
+	color: #fff;
+	right: 0;
+	font-size: 14px;
+	line-height: 13px;
+}
+.kode-inner-banner .breadcrumb li:last-child:before{
+	font-size: 0;
+}
+.kode-inner-banner .breadcrumb li a{
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+	padding: 0 9px 0 0;
+	text-transform: capitalize;
+	display: block;
+	font-style: italic;
+}
+
+/*WHO WE ARE SECTION START*/
+.we-are-bg{
+	padding: 192px 0 60px;
+	background-color: rgba(225, 225, 225, 0.3);
+}
+.kode-we-are-wrap{
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 30px;
+}
+.kode-we-are-wrap:before{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: -6px;
+	left: 50px;
+	content: "";
+	border: 10px solid #e3e3e3;
+	z-index: -1;
+}
+.kode-we-are-wrap .thumb {
+    float: left;
+    position: relative;
+    width: 40%;
+    padding: 0 0 0 10px;
+}
+.kode-we-are-wrap .thumb figure {
+    margin-bottom: -122px;
+    position: relative;
+    top: -122px;
+    overflow: visible;
+}
+.kode-we-are-wrap .thumb::after {
+    bottom: 0;
+    content: "";
+    height: 88%;
+    margin: -295px auto 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 30px;
+    z-index: -1;
+}
+.kode-we-are-wrap .thumb::before {
+    background-color: #d5cc6d;
+    bottom: -25px;
+    content: "";
+    left: 0px;
+    opacity: 0.8;
+    position: absolute;
+    right: 30px;
+    top: -15px;
+}
+.kode-we-are-wrap .text{
+	float: left;
+	width: 60%;
+	text-align: left;
+	padding: 103px 30px 57px;
+}
+.kode-we-are-wrap .text p{
+	margin-bottom: 46px;
+	margin-top: -8px;
+	float: left;
+}
+/*FOOD META*/
+.kode-food-meta{
+	float: left;
+	width: 100%;
+}
+.kode-food-meta li{
+	float: left;
+	width: 50%;
+	margin-bottom: 40px;
+}
+.kode-food-meta li i{
+	float: left;
+	width: 80px;
+	height: 66px;
+	font-size: 35px;
+	line-height: 66px;
+	border: 1px solid;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-food-meta li i:after{
+	position: absolute;
+	content: "";
+	left: 5px;
+	right: 5px;
+	top: 5px;
+	bottom: 5px;
+	border: 1px solid;
+	background-color: transparent;
+	z-index: -1;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-food-meta li:hover i{
+	color: #fff;
+}
+.kode-link-hd{
+	float: none;
+	overflow: hidden;
+	padding: 0 15px;
+}
+.kode-link-hd h5{
+	text-transform: uppercase;
+	font-weight: normal;
+	display: block;
+	margin: -2px 0 9px 0;
+	font-style: italic;
+}
+.kode-link-hd h5 a{
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	color: #666666;
+	font-size: 20px;
+	font-style: normal;
+}
+/*OUR SPECIAL RECIPISE*/
+/*RATING Star AREA START*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  line-height: 16px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #f78850;
+
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: #f78850;
+}
+.kode-sp-recipies-bg{
+	padding-bottom: 70px;
+}
+.kode-sp-recipies{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.kode-sp-recipies:before{
+	content: "";
+	left: 0;
+	right: 0;
+	top: 165px;
+	bottom: 165px;
+	position: absolute;
+	background-image: url(extra-images/recipie-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: center;
+	z-index: -1;
+}
+.kode-recipies-des{
+	float: left;
+	width: 33.3%;
+}
+.kode-recipies-des:hover figure{
+	background-color: #000;
+}
+.kode-recipies-des figure img{
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;	
+}
+.kode-recipies-des:hover figure img{
+	opacity: 0.8;
+	transform:scale(1.2) rotate(5deg);
+	-webkit-transform:scale(1.2) rotate(5deg);
+	-moz-transform:scale(1.2) rotate(5deg);
+	-ms-transform:scale(1.2) rotate(5deg);
+	-o-transform: scale(1.2) rotate(5deg);
+}
+.kode-recipies-des .text{
+	text-align: center;
+	padding:25px 30px 26px; 
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+}
+.kode-recipies-des .text i{
+	font-size: 35px;
+	color: #999999;
+	width: 40px;
+	line-height: 30px;
+	margin-bottom: 11px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.kode-recipies-des:hover .text i{
+	-webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+}
+.kode-recipies-des .text h4{
+	text-transform: uppercase;
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+.kode-recipies-des .text .rating{
+	margin-bottom: 5px;
+}
+.kode-recipies-des .text p{
+	margin-bottom: 21px
+}
+.kode-recipies-des .text > span{
+	font-size: 30px;
+	display: block;
+	line-height: 30px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 25px;
+	font-family: 'Libre Baskerville', serif;
+}
+.kode-recipies-des .text > span sup {
+    top: 0px;
+    font-size: 30px;
+}
+/*OUR MASTER CHEF START*/
+.kode-master-chef{
+	float: left;
+	width: 100%;
+	margin-bottom: 17px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-master-chef figure{
+	padding: 0 12px 12px 0;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-master-chef figure:before{
+	position: absolute;
+	right: 0;
+	left: inherit;
+	top: 5%;
+	bottom: 0px;
+	content: "";
+	border: 2px solid;
+	width: 95%;
+	z-index: -1;
+}
+.kode-master-chef:hover figure:before{
+	border-color: #333333;
+}
+.kode-master-chef figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 5%;
+	opacity: 0;
+	-webkit-transform: translate(0, -50px);
+	-moz-transform:   translate(0, -50px);
+	-ms-transform: translate(0, -50px);
+	-o-transform:  translate(0, -50px);
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-master-chef:hover figure figcaption{
+    opacity: 1;
+    -webkit-transform: translate(0);
+	-moz-transform:   translate(0);
+	-ms-transform: translate(0);
+	-o-transform:  translate(0);
+}
+.kode-master-chef .social-style-2 li a{
+	color: #fff;
+}
+.kode-master-chef .social-style-2 li a:hover{
+	color: #000;
+}
+.master-chef-hd{
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding: 13px 0 9px;
+}
+.master-chef-hd h3 a{
+	color: #333;
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-bottom: 10px;
+	display: block;
+}
+.master-chef-hd h4{
+	font-style: italic;
+	color: #666666;
+}
+/*counter up*/
+.counterup-bg{
+	padding: 120px 0;
+}
+.counterup-bg{
+	background-image:url("extra-images/counter-up-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+}
+.counterup-bg:before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.8;
+	content: "";
+	z-index: -1;
+}
+.kode-counter-up{
+	float: left;
+	width: 100%;
+}
+.kode-counter-up li{
+	float: left;
+	width:20% ;
+	height: 237px;
+	text-align: center;
+	background-color: transparent;
+	position: relative;
+	padding: 71px 0 53px;
+}
+.kode-counter-up li:before{
+	width: 237px;
+	border-radius: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	content: "";
+	margin:0 auto 0;
+	font-family: "icomoon" !important;
+	line-height: 237px;
+	font-size: 150px;
+	color: rgba(225, 225, 225, 0.10);
+	background-color: rgba(0, 0, 0, 0.45);
+	z-index: -1;
+}
+.kode-counter-up li span{
+	font-size: 72px;
+	display: inline-block;
+	color: #fff;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 72px;
+	margin-bottom: -3px;
+}
+.kode-counter-up li i {
+    color: #fff;
+    font-size: 64px;
+    margin-left: 2px;
+}
+.kode-counter-up li p{
+	margin: 0;
+	font-family: 'Lusitana', serif;
+}
+.kode-counter-up li:nth-child(2)::before{
+	content: "\e90b";
+}
+.kode-counter-up li:nth-child(3)::before{
+	content: "\e906";
+}
+.kode-counter-up li:nth-child(4)::before{
+	content: "\e900";
+}
+.kode-counter-up li:nth-child(5)::before{
+	content: "\e91e";
+}
+/*OUR BLOG SECTION*/
+.kode-blog-des{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	border-width: 1px 1px 1px 1px;
+	border-right-color:#dadada !important; 
+	border-bottom-color:#dadada !important; 
+	border-left-color:#dadada !important; 
+	border-style: solid;
+}
+.kode-blog-des figure{
+	width: 202px;
+}
+.kode-blog-des figure img{
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;	
+}
+.kode-blog-des:hover figure img{
+	-webkit-transform: scale(1.2);
+	-moz-transform:   scale(1.2);
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	transform:scale(1.2);
+}
+.kode-blog-des figure figcaption{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.kode-blog-des .date{
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	text-transform: capitalize;
+	display: block;
+	font-family: 'Lusitana', serif;
+	padding: 11px 0 11px;
+}
+.kode-blog-des .date b{
+	display: block;
+	margin-bottom: -2px;
+}
+.kode-blog-des .text{
+	padding:27px 25px 0px;
+	position: relative;
+	text-align: left;
+	float: none;
+	overflow: hidden;
+	width: auto;
+}
+.kode-blog-des .text h4{
+	text-transform: capitalize;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+.kode-blog-des .text p{
+	margin-bottom: 16px;
+}
+.blog-link{
+	float: left;
+	width: 100%;
+	border-top: 1px solid #dadada;
+	padding: 13px 0 15px; 
+}
+.blog-link li{
+	display: inline-block;
+	border-right: 1px solid #dadada ;
+	text-align: left;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: capitalize;
+	padding: 3px 25px 5px;
+	color: #666666;
+	margin-top: -0px;
+}
+.blog-link li:first-child{
+	padding-left: 0;
+}
+.blog-link li:last-child{
+	border:none; 
+}
+.blog-link li a{
+	display: inline-block;
+	color: #666666;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: capitalize;
+
+}
+/*RESERVATION SECTION START*/
+.kode-reservation-bg{
+	background-image:url(extra-images/reservation-bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: center; 
+	position: relative;
+}
+.kode-reservation-bg:before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background:#000;
+	opacity: 0.20;
+	content: "";
+}
+.kode-reservation-bg .kode-food-hdg-4 h3{
+	color: #fff;
+}
+.reservation-input{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	text-align:center; 
+	position: relative;
+}
+.reservation-input .fa-angle-down {
+    color: #fff;
+    margin-top: -8px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+.reservation-input input[type="text"]{
+	float: left;
+	width: 100%;
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 42px;
+	border: 1px solid #ccc;
+	height: 42px;
+	padding: 2px 14px 0;
+	color:#fff;
+	text-align: left;
+}
+.kode-reservation-bg .reservation-input input[type="text"]::-webkit-input-placeholder {color: #fff; opacity: 1;}
+.kode-reservation-bg .reservation-input input[type="text"]:-moz-placeholder { color: #fff; opacity: 1; }
+.kode-reservation-bg .reservation-input input[type="text"]::-moz-placeholder { color: #fff; opacity: 1; }
+.kode-reservation-bg .reservation-input input[type="text"]:-ms-input-placeholder {color: #fff; opacity: 1;}
+
+.reservation-input .selectric-wrapper{
+	float: left;
+	width: 100%;
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 42px;
+	border: 1px solid #ccc;
+	min-height: 42px;
+	padding: 0px 14px 0;
+	color: #fff;
+	text-align: left;
+}
+.reservation-input  .selectric .label{
+	font-size: 16px;
+	color: #fff;
+	line-height: 42px;
+	font-family: 'Lusitana', serif;
+	line-height: 42px;
+	padding: 0;
+	height: 42px;
+	text-align: left;
+	margin: 1px 0 -1px;
+}
+.reservation-input  .selectric .button{
+	color: transparent;
+}
+.reservation-input  .selectric .button::before {
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    margin-top: -20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.reservation-input .selectric-scroll > ul li,
+.reservation-input .selectric-scroll > ul {
+    background: transparent none repeat scroll 0 0;
+}
+.reservation-input .selectric-scroll > ul li:hover,
+.reservation-input .selectric-scroll > ul li.selected{
+	color: #fff;
+}
+.reservation-input .date-picker-des {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+.reservation-input  .add-on {
+    bottom: 0;
+    color: #fff;
+    cursor: pointer;
+    line-height: 43px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.ui-timepicker-standard a.ui-corner-all:hover{
+	color: #fff;
+}
+.reservation-input textarea{
+	width: 100%;
+	height: 192px;
+	float: left;
+	width: 100%;
+	background-color: transparent;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	padding: 15px 14px 0;
+	resize:none;
+	margin-bottom: 30px;
+	text-align: left;
+	color: #fff;
+}
+.kode-reservation-bg .reservation-input .kode_link_2:hover{
+	color:#000;	
+}
+.reservation-input textarea::-webkit-input-placeholder {color: #fff; opacity: 1;}
+.reservation-input textarea:-moz-placeholder { color: #fff; opacity: 1; }
+.reservation-input textarea::-moz-placeholder { color: #fff; opacity: 1; }
+.reservation-input textarea:-ms-input-placeholder {color: #fff; opacity: 1;}
+.reservation-input .selectric-wrapper.selectric-open,
+.reservation-input input[type="text"]:focus,
+.reservation-input textarea:focus{
+	background-color: rgba(255, 255, 255, 0.09);
+}
+.kode-reservation-bg .kode_link_2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 23px 40px 20px;
+    text-transform: capitalize;
+    font-family: "Lusitana",serif;
+    color: #fff;
+	border-color:#fff;
+}
+.kode-reservation-bg .kode_link_2:hover{
+	background: #fff;
+}
+/*TESTIMONIAL SECTION*/
+.kode-testimonial-slider{
+	float: left;
+	width: 100%;
+	margin-bottom: 26px
+}
+#owlslider-testimonial{
+	float: left;
+	width: 100%;
+}
+.kode-testimonial-slider .item{
+	padding: 0 15px;
+}
+.kode-testimonial-slider  .owl-controls.clickable {
+    margin-top: 32px;
+}
+.kode-testimonial-slider .owl-theme .owl-controls .owl-page > span{
+    position: relative;
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    background-color: transparent;
+}
+.kode-testimonial-slider .owl-theme .owl-controls .owl-page > span:before{
+	content: "";
+	position: absolute;
+	background-color: #999;
+	left: 0;
+	right: 0;
+	top: 50%;
+	bottom: 0;
+	margin:-0px auto 0;
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+}
+.kode-testimonial-slider .owl-theme .owl-controls .owl-page.active span:before{
+	width: 14px;
+	height:14px;
+	border-radius:100%; 
+	margin:-4px auto 0;
+}
+.kode-testimonial-wrap{
+	float: left;
+	width: 100%;
+}
+.kode-testimonial-hd{
+	float: left;
+	width: 100%;
+	padding: 20px 0 20px 150px;
+}
+.kode-testimonial-hd h4{
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #fff;
+	display: block;
+	line-height: 20px;
+	margin: -1px 0 9px;
+}
+.kode-testimonial-hd span{
+	text-transform: capitalize;
+	color: #fff;
+	line-height: 16px;
+	font-style: italic;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 1px;
+}
+.kode-testimonial-des{
+	float: left;
+	width: 100%;
+}
+.kode-testimonial-des figure{
+	float: left;
+	width: 124px;
+	margin-top: -40px;
+	border:5px solid #fff;
+	margin-right: 15px; 
+	margin-left: 15px; 
+}
+
+.kode-testimonial-des .blockquote-2{
+	float: none;
+	width: auto;
+	overflow: hidden;
+}
+/*
+	  ==============================================================
+		   ABOUT US CSS START
+	  ==============================================================
+*/
+.kode-about-us-wrap{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.kode-about-us-des{
+	float: left;
+	width: 100%;
+}
+.kode-about-us-des .text p:first-child{
+	font-size: 18px;
+	color: #333333;
+	margin-top: -7px;
+}
+.kode-about-us-des .text p{
+	margin-bottom: 19px;
+}
+.kode-about-us-des .text .kode_link_4{
+	margin: 7px 0 -7px ;
+}
+.kode-about-us-wrap figure {
+    outline: 5px solid #fff;
+    outline-offset: -35px;
+    padding: 60px 0px 0 133px;
+}
+.about-us2-thumb {
+    bottom: 60px;
+    position: absolute;
+    right: 133px !important;
+    z-index: -1;
+}
+/*reservation 2 style*/
+.reservation-style-2{
+	background-image: url(extra-images/reservation-bg2.jpg);
+	text-align: center;
+}
+.kode-reservation-bg.reservation-style-2::before{
+	opacity: 0.7;
+}
+.kode-reservation-bg.reservation-style-2 .container{
+	position: relative;
+}
+.kode-food-hdg-4.reservation-hd h3{
+	font-size: 54px;
+	line-height: 54px;
+	padding: 0;
+	margin: -3px 0 1px 0;
+}
+.kode-food-hdg-4.reservation-hd h3:after,
+.kode-food-hdg-4.reservation-hd h3:before{
+	height: 0;
+}
+.kode-reservation-bg.reservation-style-2 .reservation-input .selectric-wrapper,
+.kode-reservation-bg.reservation-style-2 .reservation-input input[type="text"]{
+	border: 1px solid #fff;
+}
+.reservation-style-2 .text{
+	text-align: center;
+	margin-bottom: 26px;
+}
+.reservation-style-2 .text span{
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Lusitana', serif;
+	position: relative;
+	padding: 20px 0 18px;
+	margin-bottom: 42px;
+	z-index: 1;
+}
+.reservation-style-2 .text span:before{
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	border-width:1px 0 1px 0;
+	border-style: solid;
+	border-color: #fff; 
+	z-index: -1;
+}
+.reservation-style-2 .text p {
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0 198px;
+}
+.kode-reservation-bg.reservation-style-2 form {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 763px;
+}
+.kode-reservation-bg.reservation-style-2 .kode_link_3{
+	padding: 15px 25px 13px;
+	margin-top: -2px;
+}
+.kode-reservation-bg.reservation-style-2 .kode_link_2{
+	padding: 15px 25px 13px;
+	margin-top: -2px;
+}
+.reservation-input .ui-timepicker-standard .ui-menu-item a.ui-corner-all{
+	text-align: left!important;
+}
+
+/*OUR MENU*/
+.kode-our-menu-wrap{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 22px;
+}
+.kode-recipies-des.recipies-style-2{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 116px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.recipies-style-2 .text {
+    border: 5px solid #e6e6e6;
+    display: inline-block;
+    float: none;
+    margin: 0 auto ;
+    padding: 29px 17px 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+}
+.recipies-style-2 .text h4{
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: capitalize;
+	margin-bottom: 7px;
+}
+.recipies-style-2 .text p{
+	margin-bottom: 4px;
+}
+.recipies-style-2 .text .rating{
+	margin-bottom: 19px;
+}
+.recipies-style-2 .rating > span{
+	font-size: 14px;
+	line-height: 14px;
+}
+.recipies-style-2 .text span{
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+.recipies-style-2 .text > span sup{
+	font-size: 20px;
+	line-height: 20px;
+}
+/*our shef*/
+.our-shef-bg{
+	background-image: url(extra-images/our-shef-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+}
+.our-shef-bg:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.8;
+	z-index: -1;
+}
+.our-shef-bg .master-chef-hd h3 a,
+.our-shef-bg .master-chef-hd h4,
+.our-shef-bg .kode-food-hdg-4 h3{
+	color: #fff;
+}
+/*
+	  ==============================================================
+		   RESERVATION CSS START
+	  ==============================================================
+*/
+.kode-price-tag{
+	float: left;
+	width: 100%;
+	border: 1px solid transparent;
+	margin-bottom: 29px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-price-tag .kode-food-hdg-2{
+	margin-bottom: 34px
+}
+.kode-price-tag .kode-food-hdg-2 h3{
+	color: #fff;
+	border-color:#fff; 
+}
+.kode-price-tag .kode-food-hdg-2 h3 span:after,
+.kode-price-tag .kode-food-hdg-2 h3 span:before{
+	background-color:#fff; 
+}
+.kode-price-tag figure:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #1a1a1a;
+	opacity:0.8;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	
+}
+.kode-price-tag figcaption{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 165px;
+	bottom: 165px;
+	text-align: center;
+}
+.picetag-meta{
+	float: left;
+	width: 100%;
+	margin-bottom: 9px;
+}
+.picetag-meta li{
+	float: left;
+	width: 100%;
+	text-align: center;
+	line-height: 18px;
+	margin: 0 0 16px 0;
+}
+.picetag-meta li a{
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	line-height: 18px;
+	text-transform: capitalize;
+}
+.kode-price-tag figcaption > a{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 35px 5px 4px;
+    background-color: transparent;
+    position: relative;
+    text-transform: uppercase;
+}
+.kode-price-tag figcaption > a:before{
+	position: absolute;
+	content: "...";
+	left: 0;
+	right: 0;
+	top: 0px;
+	font-size: 45px;
+	margin-top: -17px;
+}
+.kode-price-tag:hover figure:before{
+	 outline: 1px solid #fff;
+    outline-offset:-10px; 
+}
+.kode-price-tag:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+   
+}
+#brand {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#brand .owl-controls.clickable{
+	display: none !important;
+}
+.brand-info {
+    color: #888888;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 29px;
+    margin-top: -1px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Asap', sans-serif;
+}
+/*
+	  ==============================================================
+		   OUR MENU CSS START
+	  ==============================================================
+*/
+.kode-our-menu-tab-wrap{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+/*tab navigation*/
+
+.tabs-navigation {
+    border-bottom:1px solid #c6c6c6;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.tabs-navigation button,
+.tabs-navigation li{
+	display:inline-block;
+	margin: 0;
+	padding:0; 
+}
+.tabs-navigation button span,
+.tabs-navigation li a{
+	display:block;
+	font-size:20px;
+	line-height:20px;
+	color:#666666;
+	text-transform:uppercase;
+	font-family: 'Noto Serif', serif;
+	position:relative;
+	padding:0 6px 13px;
+	border:none; 
+	background: transparent;
+	margin-right: 53px;
+}
+.tabs-navigation button,
+.tabs-navigation button span:hover,
+.tabs-navigation li a:hover{
+	background-color: transparent;
+	border:none; 
+}
+.tabs-navigation button:last-child span,
+.tabs-navigation li:last-child a{
+	margin-right: 0;
+}
+.tabs-navigation button span:before,
+.tabs-navigation button.is-checked span:before,
+.tabs-navigation .active a:before,
+.tabs-navigation li a:before{
+	content:"";
+	left:0;
+	right:0;
+	bottom:-2px;
+	height:3px;
+	width:0%;
+	position:absolute;
+}
+.tabs-navigation button span:hover:before,
+.tabs-navigation button.is-checked span:before,
+.tabs-navigation li.active a::before,
+.tabs-navigation li a:hover::before{
+	width: 100%;
+}
+.tabs-navigation > li.active >a, 
+.tabs-navigation > li.active > a:focus,
+.tabs-navigation > li.active > a:hover{
+    border: none;
+}
+/*tabs navigation end*/
+.kode-menu-tab-contant{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-menu-tab-contant figure{
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;	
+}
+.kode-menu-tab-contant:hover{
+	box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.3)
+}
+.kode-menu-tab-contant figure:before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.35;
+	content: "";
+	margin: auto; 
+	z-index: 10;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+}
+.kode-menu-tab-contant figure:after{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	content: "";
+	margin: auto; 
+	-webkit-transition:border-color 0.5s ease-in;/* Safari */
+    transition:border-color 0.5s ease-in;
+	-moz-transition:border-color 0.5s ease-in;
+	border: 10px solid #fff;
+	z-index: 20;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+}
+.kode-menu-tab-contant:hover figure:after{
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+}
+.kode-menu-tab-contant:hover figure:before{
+	opacity: 0.03;
+	width: 100%;
+	height: 100%;
+}
+.kode-menu-tab-contant figure img{
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+}
+.kode-menu-tab-contant:hover figure img{
+	transform:scale(1.2); 
+	-webkit-transform: scale(1.2);
+	-moz-transform:  scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform:  scale(1.2);
+	z-index: -1;
+}
+.kode-menu-tab-contant figure figcaption{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	margin: -15px auto 0;
+	text-align: center;
+}
+.kode-menu-tab-contant .search-btn-2{
+	opacity: 0;
+	transform:scale(0); 
+	-webkit-transform: scale(0);
+	-moz-transform:  scale(0);
+	-ms-transform: scale(0);
+	-o-transform:  scale(0);
+	-webkit-transition-delay: 0.3s ease-in;
+	-moz-transition-delay: 0.3s ease-in; /* Safari */
+    transition-delay: 0.3s ease-in;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	position:relative;
+	z-index:10;
+	color:#000;
+}
+.kode-menu-tab-contant:hover .search-btn-2{
+	opacity: 1;
+	transform:scale(1); 
+	-webkit-transform: scale(1);
+	-moz-transform:  scale(1);
+	-ms-transform: scale(1);
+	-o-transform:  scale(1);
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-like-link{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 15px 20px 13px;
+	text-align: center;
+	z-index: 20;
+}
+.kode-like-link a{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+}
+.kode-like-link a > i{
+	font-size: 16px;
+	color: #f58850;
+	margin-right: 10px;
+}
+.kode-menu-tab-contant:hover .kode-like-link{
+	opacity: 0;
+}
+.menu-tab-des{
+	float: left;
+	width: 100%;
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	text-align: left;
+	z-index: 10;
+}
+.menu-tab-des .text {
+    padding: 27px 25px 18px;
+}
+.menu-tab-des .text h4{
+	margin-bottom: 8px;
+}
+.menu-tab-des .text h4 a{
+	display: block;
+	padding: 0 80px 0 0;
+}
+.menu-tab-des .text > a {
+    color: #999999;
+    float: left;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    font-family: 'Lusitana', serif;
+    padding-top:5px; 
+}
+.menu-tab-des .text > a:hover span{
+	color: #999999;
+}
+.menu-tab-des .text > span {
+    float: right;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'Lusitana', serif;
+}
+.menu-tab-des .text > span sup {
+    font-size: 22px;
+    top: 0px;
+}
+.tabs-menu-meta{
+	float: left;
+	width: 100%;
+    border-top: 1px solid #dbdbdb;
+    padding: 0 25px;
+}
+.tabs-menu-meta a {
+    color: #999999;
+    float: left;
+    font-family: "Lusitana",serif;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 16px 0;
+    text-transform: capitalize;
+}
+.tabs-menu-meta a span,
+.tabs-menu-meta a:hover span{
+	color: #999999;
+}
+.tabs-menu-meta .rating{
+	float: right;
+	width: auto;
+	padding: 17px 0px 18px 25px;
+	border-left:1px solid #dbdbdb; 
+}
+.tabs-menu-meta .rating > span:hover::before,.tabs-menu-meta .rating > span:hover ~ span::before{
+	color: #c5c5c5;
+}
+.tabs-menu-meta .rating span{
+	font-size: 16px;
+	line-height: 16px;
+	color: #c5c5c5;
+}
+.kode-pagination .pagination,
+.kode-our-menu-tab-wrap .pagination{
+	margin:0 0 23px 0; 
+}
+/*
+	  ==============================================================
+		   Gallery 2 CSS START
+	  ==============================================================
+*/
+.kode-gallery2-wrap{
+	float: left;
+	width: 100%;
+}
+.kode-gallery2-wrap #filters{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.gallery2-navigation{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 40px;
+	position: relative;
+	background: #fff;
+}
+.gallery2-navigation:before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-image: url(extra-images/gallerybg.png);
+	opacity: 0.1;
+	content: "";
+
+}
+.gallery2-navigation .button{
+	font-size: 16px;
+	line-height: 16px;
+	display: inline-block;
+	padding: 14px 35px;
+	border-style:solid;
+	border-color: transparent transparent #e2e2e2 transparent; 
+	border-width:1px;
+	color: #666666; 
+	margin: 0 -1px;
+	background-color: transparent; 
+	position: relative;
+	text-transform:uppercase;
+}
+
+.gallery2-navigation .button.is-checked{
+	border-color: #e2e2e2 #e2e2e2 transparent #e2e2e2;
+	background-color: #fff; 
+}
+.gallery2-navigation .button span{
+	font-size: 14px;
+	line-height: 24px;
+	color: #666666;
+	height: 25px;
+	width: 25px;
+	border-radius: 100%;
+	background-color: #f1f1f1;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 15px;
+}
+.kode-gallery2-wrap .isotope{
+	float: left;
+	width: 100%;
+}
+.kode-gallery2-wrap .isotope [class*="col-"]{
+	padding: 0;
+}
+.gallery2:before{
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.75);
+	outline: 1px solid #fff;
+	outline-offset: -70px;
+	opacity: 0;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.gallery2:hover:before{
+	opacity: 1;
+}
+.gallery2 figcaption{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-top: -107px;
+	opacity: 0;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.gallery2:hover figcaption{
+	opacity: 1;
+}
+.gallery2 figcaption .kode-food-hdg-3 h3{
+	margin-bottom: 50px;
+}
+.gallery2 figcaption .kode-food-hdg-3 h3:before{
+	background-color: #fff;
+}
+.gallery2 figcaption h4 span{
+	display: block;
+}
+.gallery2 .kode_link_4{
+	color: #fff;
+}
+.gallery2 .kode_link_4:hover{
+	color: #000;
+}
+.col-md-3 .gallery2:before{
+	outline-offset: -10px;
+}
+/*
+	  ==============================================================
+		   OUR MASTER CHEFF CSS START
+	  ==============================================================
+*/
+.kode-cheff-special{
+	background-image: url("extra-images/spacial-cheff.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.kode-cheff-special:before{
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.85;
+	position: absolute;
+}
+.kode-cheff-special .kode-food-hdg-4 h3{
+	color: #fff;
+}
+.kode-cheff-special .col-md-4{
+	padding: 0px;
+}
+.recipies-style-3{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 25px;
+}
+.recipies-style-3 figure:before{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	bottom: 20px;
+	right: 20px;
+	content: "";
+	background-color: transparent;
+	border:1px dotted #fff4de;
+	opacity: 0.75;
+}
+.recipies-style-3 .text {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    padding: 60px 38px;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #fff4de;
+    z-index: 1;
+    border:none; 
+}
+.recipies-style-3 .text:before{
+	content: "";
+	left: 20px;
+	right: 20px;
+	top: 20px;
+	bottom: 20px;
+	position: absolute;
+	border:1px solid; 
+	z-index: -1;
+}
+.recipies-style-3 .text i{
+	font-size: 65px;
+	line-height: 65px;
+	color: #5c5a5b;
+	margin-bottom: 17px;
+}
+.recipies-style-3 .text h4{
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 9px;
+}
+.recipies-style-3 .text p{
+	margin-bottom: 12px;
+}
+.recipies-style-3 .text .rating{
+	margin-bottom: 18px;
+}
+.recipies-style-3 .text .rating > span{
+	margin: 0 2px;
+}
+.recipies-style-3 .text > span{
+	font-size: 16px;
+	line-height: 16px;
+	color: #333!important;
+	font-weight: bold;
+	font-family: 'Lusitana', serif;
+	font-style: normal;
+	margin-bottom: 0;
+}
+.recipies-style-3 .text > span sup{
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+}
+.text.margin-top{
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+/*
+	  ==============================================================
+		   OUR BLOG 3 CSS START
+	  ==============================================================
+*/
+.kode-blog-3{
+	float: left;
+	width: 100%;
+	border: 1px solid #d0d0d0;
+	padding: 165px 30px 30px;
+	margin-top: 111px; 
+	position: relative;
+	margin-bottom: 30px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-blog-3 figure{
+	position: absolute;
+	top: -112px;
+	left: 15px;
+	right: 15px;
+	width: auto;
+	margin: 0 auto;
+	overflow: visible;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-blog-3 figure figcaption{
+	position: absolute;
+	bottom: -30px;
+	left: 15px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kode-blog-3 h3{
+	text-transform: capitalize;
+	margin-bottom: 11px;
+}
+.kode-blog-3 p{
+	text-transform: capitalize;
+	margin-bottom: 26px;
+}
+.kode-blog-3 .date{
+	width: 55px;
+	height: 60px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	text-transform: capitalize;
+	display: block;
+	font-family: 'Lusitana', serif;
+	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+	padding: 10px 0 8px;
+}
+.kode-blog-3 .date b{
+	display: block;
+	margin-bottom: 2px;
+}
+.kode-blog-3:hover .kode_link_5{
+	color: #fff;
+}
+/*
+	  ==============================================================
+		   BLOG 1 CSS START
+	  ==============================================================
+*/
+.blog-1{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.blog-1 figure{
+	background-color: #000;
+	outline: 5px solid rgba(225, 255, 255, 0.25);
+	outline-offset:-15px;
+}
+.blog-1 figure img{
+	opacity: 0.48;
+}
+.blog-1:hover figure img{
+	text-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-moz-transform:   scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform:  scale(1.5);
+	transition:3s ease-in;
+}
+.blog-1 .text{
+	padding: 29px 0 10px;
+	text-align: left;
+}
+.blog-1 .text span{
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #999999;
+	display: block;
+	text-align: left;
+	font-family: 'Lusitana', serif;
+	margin-bottom: 26px;
+}
+.blog-1 .text h2{
+	font-weight: bold;
+	margin-bottom: 19px;
+}
+.blog-1-meta{
+	float: left;
+	width: 100%;
+	margin-bottom: 22px;
+}
+.blog-1-meta li{
+	float: left;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #999999;
+	color:#666666; 
+	font-size: 20px;
+	line-height: 20px;
+	font-family: 'Lusitana', serif;
+	text-align: left;
+}
+.blog-1-meta li:last-child{
+	border: none;
+}
+.blog-1-meta li a{
+	font-size: 20px;
+	line-height: 20px;
+	font-family: 'Lusitana', serif;
+	display: block;
+}
+.blog-1 .text p{
+	margin-bottom: 26px;
+}
+.thumb-slider{
+	float: left;
+	width: 100%;
+}
+.thumb-slider .bx-wrapper .bx-controls-direction a{
+	width: 42px;
+	height: 42px;
+	background-color: rgba(225, 225, 225, 0.5);
+	line-height: 42px;
+	text-align: center;;
+	background-image: none;
+	margin: -16px -10px;
+}
+.thumb-slider .bx-wrapper .bx-controls-direction a:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	line-height: 42px;
+	color: #fff;
+	text-align: center;
+	font-family: FontAwesome;
+	font-size: 20px;
+}
+.thumb-slider .bx-wrapper{
+	margin-bottom: 10px;
+}
+.thumb-slider .bx-wrapper .bx-prev:before{
+	background-image: url(extra-images/bx-prev.png);
+}
+.thumb-slider .bx-wrapper .bx-next:before{
+	background-image: url(extra-images/bx-next.png);
+}
+.thumb-slider .bx-wrapper .bx-viewport {
+    background: transparent;
+    border:none;
+    box-shadow:none;
+    left: 0px;
+    transform: translateZ(0px);
+}
+.thumb-slider > #bx-pager {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.thumb-slider #bx-pager > a {
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    background-color: #000;
+}
+.thumb-slider #bx-pager > a:last-child {
+    margin: 0;
+}
+.thumb-slider #bx-pager > a.active:before{
+	top: 10px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	position: absolute;
+	content: "";
+	border:1px solid #fff;
+}
+.thumb-slider #bx-pager > a.active{
+	outline: 1px solid #fff;
+	outline-offset: -6px;
+}
+.thumb-slider #bx-pager > a.active img{
+	opacity: 0.5; 
+}
+/*
+	  ==============================================================
+		   SIDEBAR CSS START
+	  ==============================================================
+*/
+/*SEARCH*/
+.widget-search{
+	position: relative;
+	margin-bottom: 60px;
+}
+.widget-search input[type="text"]{
+	float: left;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #d3d3d3;
+	font-size: 16px;
+	line-height: 50px;
+	padding:0 73px 4px 15px;
+}
+.widget-search input[type="text"]::-moz-placeholder{
+	color: #999999;
+}
+.widget-search .search-icon-button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+/*CATEGORIES*/
+.widget-categories{
+	margin-bottom: 40px;
+}
+.widget-categories ul{
+	float: left;
+	width: 100%;
+	margin-top: -20px;
+}
+.widget-categories ul li{
+	float: left;
+	width: 100%;
+	border-bottom:1px solid #d3d3d3; 
+}
+.widget-categories ul li:last-child{
+	border: none;
+}
+.widget-categories ul li a{
+	float: left;
+	width: 100%;
+	text-align: left;	
+	font-size: 20px;
+	line-height: 20px;
+	color: #333;
+	padding: 18px 0 20px;
+	text-transform: capitalize;
+	position: relative;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	
+}
+.widget-categories ul li a span{
+	float: right;
+	font-size: 20px;
+	line-height: 20px;
+	color: #333;
+	text-transform: capitalize;
+}
+.widget-categories ul li a:hover{
+	padding-left: 20px;
+}
+.widget-categories ul li a:before{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 22px;
+	width: 2px;
+	content: "";
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+/*RECENT POST*/
+.widget-r-stories{
+	margin-bottom: 45px;
+}
+.widget-r-stories ul{
+	float: left;
+	width: 100%;
+	margin-top: -15px;
+}
+.widget-r-stories ul li{
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+	border-bottom: 1px solid #d3d3d3;
+}
+.widget-r-stories ul li:last-child{
+	border-bottom: none;
+}
+.stories-des{
+	float: left;
+	width: 100%;
+}
+.stories-des figure{
+	width: 93px;
+	float: left;
+}
+.widget-r-stories ul li figure:before{
+	content: "";
+	position:absolute;
+	top:0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px; 
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.widget-r-stories ul li:hover figure:before{
+	top:5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px; 
+	opacity: 0.85;
+}
+.stories-des figcaption{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: -14px;
+	text-align: center;
+	opacity: 0;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.stories-des figcaption a{
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.stories-des .text{
+	float: none;
+	width: auto;
+	margin-top: -4px;
+	padding: 0 0 0 110px;
+}
+.stories-des .text h4{
+	margin-bottom: 3px;
+	text-transform: capitalize;
+}
+.stories-des .text span{
+	font-size: 16px;
+	line-height: 16px;
+	color: #999;
+	text-transform: capitalize;
+	font-family: 'Lusitana', serif;
+}
+.widget-r-stories ul li:hover figcaption{
+	opacity: 1;
+}
+/*TAG*/
+.widget-tags{
+	margin-bottom: 53px;
+}
+.widget-tags ul{
+	float: left;
+	width: 100%;
+}
+.widget-tags ul li {
+    float: left;
+    margin: 0 30px 7px 0;
+}
+.widget-tags ul li:last-child{
+	margin:0; 
+}
+
+/*instagram*/
+.widget-instagram ul{
+	float: none;
+	margin:0 0 0 -8px;
+}
+.widget-instagram ul li{
+	float: left;
+	margin: 0 0 7px 7px;
+}
+.widget-instagram ul li img{
+	background-color: #fff;
+	opacity: 0.5;
+}
+.widget-instagram ul li:hover img{
+	opacity: 1;
+}
+/*
+	  ==============================================================
+		   BLOG DETAIL CSS START
+	  ==============================================================
+*/
+.blog-detail-wrap{
+	float: left;
+	width: 100%;
+}
+.blogg-detail-wrap{
+	float: left;
+	width: 100%;
+}
+/*heading*/
+.blog-detail-hd{
+	float: left;
+	width: 100%;
+}
+.blog-detail-hd h2{
+	text-transform: capitalize;
+	margin-top: -4px;
+	margin-bottom: 18px;
+}
+.blog-detail-hd ul{
+	float: left;
+	width: 100%;
+	margin-bottom: 21px;
+}
+.blog-detail-hd ul li{
+	float: left;
+	margin-right: 27px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #666;
+	font-family: 'Lusitana', serif;
+}
+.blog-detail-hd ul li i{
+	font-size: 16px;
+	line-height: 16px;
+	color: #d2d0d0;
+	margin-right: 13px;
+}
+.blog-detail-hd ul li a{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 16px;
+	color: #666;
+}
+/*bog detail slider*/
+.blog-detail-slider{
+	float: left;
+	width: 100%;
+}
+.blog-detail-slider #owl-demo-6{
+	margin-bottom: 33px;
+}
+.blog-detail-slider .owl-theme .owl-controls .owl-page span {
+    background: transparent;
+    border-radius: 0;
+    display: block;
+    height: 22px;
+    margin: 0 4px;
+    width: 22px;
+    border-radius: 100%;
+    position: relative;
+    border: 1px solid transparent 
+}
+.blog-detail-slider .owl-theme .owl-controls .owl-page.active span{
+	border-color: #fff4de;
+}
+.blog-detail-slider .owl-theme .owl-controls .owl-page span:before{
+	width: 10px;
+	height: 10px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background-color: #fff4de;
+	border-radius: 100%;
+	position: absolute;
+	content: "";
+}
+.blog-detail-slider .owl-pagination {
+    bottom: 8px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.blog-detail-slider p{
+	margin-bottom: 36px;
+}
+.blog-detail-wrap > p{
+	margin:0; 
+	padding: 33px 0 36px;
+}
+.effect:hover img{
+	transform:scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform:  scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform:  scale(1.2);
+	opacity: 0.5; 
+}
+/*blog link meta*/
+.blog-link-meta {
+    border-color: #d3d3d3;
+    border-style: solid;
+    border-width: 1px 0;
+    float: left;
+    line-height: 16px;
+    margin-bottom: 70px;
+    padding: 17px 0 21px;
+    width: 100%;
+}
+.pages-links {
+    float: left;
+    line-height: 18px;
+}
+.pages-links li {
+    display: inline-block;
+    margin-right: 7px;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    text-transform: capitalize;
+}
+.pages-links li:first-child a{
+	display: inline-block;
+	margin-left: 15px;
+}
+.pages-links li::before {
+    bottom: 2px;
+    color: #666;
+    content: ",";
+    font-size: 19px;
+    position: absolute;
+    right: -5px;
+}
+.pages-links li:last-child::before{
+	font-size: 0;
+}
+.pages-links li a {
+    color: #999999;
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+}
+.social-links {
+    float: right;
+    line-height: 16px;
+    margin-top: 2px;
+}
+.social-links li {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    text-transform: capitalize;
+    margin: 0 0 0 15px;
+}
+.social-links li:first-child a{
+	display: inline-block;
+	margin-left: 20px;
+}
+.social-links li a {
+    color: #cbcbcb;
+    display: block;
+    font-size: 16px;
+}
+
+.author{
+	margin-bottom: 0;
+	font-family: 'Lusitana', serif;
+	font-size: 16px;
+	color: #333;
+	line-height: 16px;
+}
+.author a{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 16px;
+	margin-bottom: 11px;
+}
+/*comment wrap*/
+.section-comment {
+    float: left;
+    margin-bottom: 67px;
+    width: 100%;
+}
+.comment_heading{
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-top: -2px;
+}
+.comment_heading h2{
+	text-transform: capitalize;
+	line-height: 30px;
+}
+.coment_list {
+    float: left;
+    width: 100%;
+}
+.coment_list li {
+    float: left;
+    width: 100%;
+}
+.comment_wrap {
+    border-bottom: 1px solid #d3d3d3;
+    float: left;
+    padding: 30px 0;
+    width: 100%;
+}
+.comment_wrap figure {
+    width: 107px;
+}
+.comment_des {
+    float: none;
+    overflow: hidden;
+    padding-left: 20px;
+    text-align: left;
+}
+.comment_des_hed {
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.comment_des_hed cite {
+    float: left;
+    line-height: 15px;
+}
+.comment_des_hed cite a {
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 20px;
+    color: #333333;
+}
+.comment_des_hed cite span {
+    border-left: 1px solid #d3d3d3;
+    display: inline-block;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    padding-left: 20px;
+    font-family: 'Lusitana', serif;
+}
+.comment_des_hed .comment_reply {
+    float: right;
+    font-size: 14px;
+    font-weight: normal; 
+    border:none;
+    color: #fff;
+}
+.comment_des_hed .comment_reply:hover{
+	background: #000;
+}
+.comment_des p{
+	margin-bottom: 0;
+}
+/*second ul*/
+.secnd_coment_list {
+    float: left;
+    padding-left: 50px;
+    width: 100%;
+}
+/*blog detail form*/
+.blog-detail-form{
+	float: left;
+	width:100%; 
+}
+.blog-detail-form .comment_heading{
+	margin-bottom:61px;
+}
+.blog-detail-form textarea,
+.blog-detail-form input[type="text"]{
+	border-color:#d3d3d3; 
+	border-width: 1px;
+	color: #999999;
+}
+.blog-detail-form textarea{
+	height: 219px;
+}
+.blog-detail-form textarea::-moz-placeholder,
+.blog-detail-form input[type="text"]::-moz-placeholder{
+	color: #999999;
+	opacity:1;
+}
+.blog-detail-form .submit-btn{
+	float: left;
+}
+/*
+	  ==============================================================
+		   MENU PARALLAX CSS START
+	  ==============================================================
+*/
+.menu-parallex-des {
+    float: left;
+    margin-bottom: 97px;
+    position: relative;
+    width: 100%;
+}
+.menu-parallex-des figure {
+    float: left;
+    width: 66.6%;
+}
+.menu-parallex-des.right-side figure {
+    float: right;
+}
+.menu-parallex-des .text {
+    background-color: #fff;
+    left: inherit;
+    margin-top: -222px;
+    padding: 45px 60px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 62%;
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.25);
+}
+.menu-parallex-des.right-side .text {
+    left: 0;
+    right: inherit;
+}
+.menu-parallax-meta{
+	float: left;
+	width: 100%;
+}
+.menu-parallax-meta li{
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-bottom: 30px;
+}
+.menu-parallax-meta li:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	bottom: 30px;
+	top: 0;
+	border-bottom: 1px dotted #d3d3d3;
+}
+.menu-parallax-meta li:last-child{
+	margin-bottom: 0;
+}
+.menu-parallax-meta li p{
+	float: left;
+	width: 100%;
+	text-transform: capitalize;
+	text-align: left;
+	font-size: 18px;
+	line-height: 18px;
+	font-style: normal;
+	color: #333;
+	position: relative;
+	margin-bottom: 13px;
+}
+.menu-parallax-meta li .price-tag{
+	float: right;
+}
+.menu-parallax-meta .price-tag{
+    color: #333;
+    font-family: "Lusitana",serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.menu-parallax-meta span{
+	background-color: #fff;
+}
+.price-tag sup {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    top: 0;
+}
+.menu-parallax-meta li a{
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+	color: #999999;
+	text-transform: capitalize;
+	position: relative;
+	padding-right: 10px;
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+.menu-parallax-meta li a::before {
+    background: #999999;
+    bottom: 3px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 0;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+	-moz-transform:   rotate(25deg);
+	-ms-transform: rotate(25deg);
+	-o-transform:  rotate(25deg);
+    width: 1px;
+}
+.menu-parallax-meta a:last-child:before{
+	height: 0;
+}
+.menu-parallax-meta li:hover a{
+	color: #333;
+}
+.menu-parallax-meta li:hover a:before{
+	background-color: #333;
+}
+/*style 2*/
+.parallex-des-2{
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	min-height: 500px;
+	background-image: url(extra-images/menu-parallax-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallex-des-2:before{
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background-color: #333333;
+	opacity: 0.33;
+}
+.parallex-des-2 .text{
+	top: -67px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #333333;
+	position: absolute;
+	width: 60%;
+	padding: 45px 60px;
+	outline: 1px solid #be951f;
+	outline-offset: -16px;
+}
+.parallex-des-2 .text:before{
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	border: 1px solid;
+	background-image: url(extra-images/parallex-des-2-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	content: "";
+	opacity: 0.03;
+}
+.parallex-des-2 .text .kode-food-hdg-6{
+	text-align: left;
+}
+.parallex-des-2 .text .kode-food-hdg-6 h3{
+	color: #fff;
+}
+.parallex-des-2 .menu-parallax-meta li:before{
+	border-color: transparent;
+}
+.parallex-des-2 .menu-parallax-meta li .price-tag,
+.parallex-des-2 .menu-parallax-meta li p{
+	color: #fff;
+}
+.parallex-des-2 .menu-parallax-meta li:hover a{
+	color: #999;
+}
+.parallex-des-2 .menu-parallax-meta span{
+	background-color: transparent;
+}
+.parallex-des-2 .menu-parallax-meta li:hover a:before{
+	background-color: #999;
+}
+.margin-bottom{
+	padding-bottom:0; 
+}
+.margin-bottom .menu-parallex-des{
+	margin-bottom: 70px;
+}
+/*
+	  ==============================================================
+		   RECIPE SINGLE CSS START
+	  ==============================================================
+*/
+.blog-des-heading{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.blog-des-heading h2{
+	line-height: 30px;
+	margin-top: -1px;
+}
+.recipe-single-wrap{
+	float: left;
+	width: 100%;
+}
+.recipe-thumb{
+	float: left;
+	width: 100%;
+}
+.recipe-thumb > figure{
+	margin-bottom: 10px;
+}
+.recipe-thumb > figure:before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	content: "";
+	background-color: #000;
+	opacity: 0.45;
+}
+.recipe-thumb figcaption{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.recipe-thumb figcaption .kode_link_1::before{
+	border: none;
+}
+.recipe-thumb-meta{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding:0 20px 20px;
+}
+.thumb-log{
+	float: left;
+}
+.thumb-log i{
+	float: left;
+	font-size: 35px;
+	margin-right: 15px;
+}
+.thumb-log h4 {
+    bottom: -2px;
+    display: inline-block;
+    margin: 8px 0 0;
+    position: relative;
+}
+.thumb-log h4 a{
+	display: inline-block;
+	color: #fff;
+	text-transform: capitalize;
+}
+.recipe-thumb-meta .rating{
+	float: right;
+	line-height: 16px;
+	font-size: 16px;
+	padding: 15px 0 0 0;
+}
+.recipe-thumb-meta .rating a{
+	float: right;
+	color: #fff;
+	font-size: 16px;
+	text-transform: lowercase;
+	margin-left: 10px;
+}
+/*recipe meta*/
+.recipe-meta{
+	float: left;
+	width: 100%;
+	padding: 9px 0 13px;
+	background-color: #e8e8e8;
+	margin-bottom: 40px;
+}
+.recipe-meta li{
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+	position: relative;
+	padding: 0 30px;
+	color: #333;
+	font-family: 'Lusitana', serif;
+	border-right:1px solid #c0c0c0;
+}
+.recipe-meta li:last-child{
+	border: none;
+}
+/*description*/
+.recipe-thumb > .text{
+	margin-bottom: 27px;
+}
+.recipe-thumb .text h2{
+	line-height: 30px;
+	margin-bottom: 14px;
+	margin-top: -4px;
+}
+/*ingrident list*/
+.ingrident-des{
+	float: left;
+	width: 100%;
+	margin-bottom: 37px;
+}
+.ingrident-des figure{
+	width: 50%;
+}
+.ingrident-des figure:before{
+	content: "";
+	left: 5px;
+	right: 5px;
+	top: 5px;bottom: 5px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.25);
+	border: 1px solid #fff;
+}
+.ingrident-des .text {
+    margin: 0;
+    padding: 0 110px 0 0;
+    width: 50%;
+}
+.ingrident-des .blog-des-heading{
+    margin-bottom: 23px;
+}
+.ingrident-des ul{
+	float: left;
+	width: 100%;
+}
+.ingrident-des ul li {
+    color: #666;
+    display: inline-flex;
+    font-size: 16px;
+    margin-bottom: 11px;
+    width: 100%;
+}
+.ingrident-des ul li:last-child{
+	margin-bottom: 0;
+}
+.ingrident-des li i {
+    margin-right: 8px;
+    margin-top: 5px;
+}
+/*prepration*/
+.recipe-prepration{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d3d3d3;
+	margin-bottom: 40px;
+}
+.recipe-prepration figure:before{
+	content: "";
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: #000;
+	opacity: 0;
+	position: absolute;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.recipe-prepration .col-md-4:hover figure:before{
+	content: "";
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	opacity: 0.65;
+}
+.recipe-prepration figcaption{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: -13px auto 0;
+	opacity: 0;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.recipe-prepration .col-md-4:hover figcaption{
+	opacity: 1;
+}
+.recipe-prepration figcaption a{
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+.recipe-prepration .text{
+	text-align: center;
+	padding: 15px 15px 16px;
+}
+.recipe-prepration .text h4{
+	margin-bottom: 11px;
+}
+.recipe-prepration .text p{
+	margin-bottom: 0;
+}
+/*comment-style-2*/
+.comment-style-2 .blog-des-heading{
+	margin-bottom: 0;
+}
+.comment-style-2 .comment_wrap{
+	padding: 40px 0;
+}
+.comment-style-2 figure{
+	width: 80px;
+	border-radius: 100%;
+	margin-top: 13px;
+}
+.comment-style-2 .comment_des_hed cite a {
+    color: #333333;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 1px;
+}
+.comment-style-2 .comment_des_hed cite span {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 20px;
+    border: none;
+}
+.comment-link-meta{
+	float: left;
+	width: 100%;
+	line-height: 16px;
+}
+.comment-link-meta a{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 16px;
+	color: #999;
+	font-weight: normal;
+	font-family: 'Lato', sans-serif;
+	margin-right: 20px;
+}
+.comment-link-meta a span{
+	color: #333;
+	font-weight: bold;
+}
+.comment-link-meta a span i{
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.comment-style-2 .secnd_coment_list{
+	padding-left: 100px;
+}
+/*
+	  ==============================================================
+		   CONTACT US CSS START
+	  ==============================================================
+*/
+.kode-contact{
+	float: left;
+	width: 100%;
+	border:1px solid #d3d3d3;
+	text-align: center;
+	padding: 27px 45px 30px;
+	margin-bottom: 30px;
+}
+.kode-contact:hover{
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.11);
+}
+.kode-contact span{
+	margin-bottom: 25px;
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 52px;
+	color: #333333;
+	line-height: 48px;
+	height: 44px;
+}
+.kode-contact h4{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 0 0 11px 0;
+	position: relative;
+	font-weight: bold;
+	margin-bottom:28px;
+}
+.kode-contact h4:before{
+	content: "";
+	left: 0;
+	right:0;
+	bottom:0;
+	height: 1px;
+	width: 40px;
+	position: absolute;
+	background-color: #333333;
+	margin: 0 auto;
+} 
+.kode-contact address{
+	font-size: 16px;
+	color: #666;
+	text-transform: capitalize;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	margin-top: -3px;
+	margin-bottom: 4px;
+}
+.kode-contact ul{
+	float: left;
+	width: 100%;
+}
+.kode-contact ul li{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #666666;
+	text-transform: capitalize;
+	margin-bottom: 11px;
+}
+.kode-contact ul li:last-child{
+	margin-bottom: 1px;
+}
+.kode-contact ul li a{
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #666666;
+	text-transform: capitalize;
+	display: block;
+}
+.kode-map{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.kode-map #map-canvas{
+	float: left;
+	width: 100%;
+	height: 545px;
+}
+.kode-map .kode-contact{
+	position: absolute;
+	right: 20%;
+	height: 100%;
+	padding: 58px 30px 62px;
+	width: 430px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: none;
+	margin: 0;
+	box-shadow: 0 80px 40px 0 rgba(0, 0, 0, 0.9);
+}
+.kode-map .kode-contact:hover{
+	box-shadow: 0 80px 40px 0 rgba(0, 0, 0, 0.9);
+}
+.kode-map .kode-contact:hover h4:before,
+.kode-map .kode-contact:hover h4{
+	color: #333;
+}
+.kode-map .reservation-input{
+	position: relative;
+	margin-bottom: 10px;
+}
+.kode-map .contact-input2 textarea,
+.contact-input input[type="text"]{
+	border: 1px solid #d3d3d3;
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	padding-top: 0;
+	color: #666666;
+}
+.kode-map .contact-input2 textarea::-moz-placeholder:focus,
+.contact-input input[type="text"]::-moz-placeholder:focus,
+.kode-map .contact-input2 textarea::-moz-placeholder,
+.contact-input input[type="text"]::-moz-placeholder{
+	color: #666666;
+}
+.kode-map .contact-input i{
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	margin-top:-8px; 
+}
+.kode-map .contact-input2 i{
+	top: 20px;
+	right: 15px;
+	position: absolute;
+}
+.kode-map .contact-input2 textarea{
+	height: 127px;
+	margin-bottom: 10px;
+}
+/*
+	  ==============================================================
+		   404 PAGE CSS START
+	  ==============================================================
+*/
+.kf_404-wrap {
+    float: left;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-image: url("extra-images/404.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kf_404-wrap::before {
+    background-color: #000;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.kf-404-des{
+  	left: 0;
+    margin:-341px auto 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    z-index: 1;
+}
+.kf-404-des span i,
+.kf-404-des span{
+	font-size: 250px;
+	line-height: 250px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	font-family: 'Lusitana', serif;
+	margin-bottom: 3px;
+}
+.kf-404-des span i{
+	display: inline-block;
+	font-style: normal;
+}
+.kf-404-des h6{
+	color: #afafaf;
+	line-height: 26px;
+	display: block;
+	margin-bottom: 30px;
+}
+.kf-404-des h5{
+	color: #fff;
+	font-size: 50px;
+	line-height: 50px;
+	display: block;
+	margin-bottom: 26px;
+}
+.kf-404-des p{
+	color: #fff;
+	margin-bottom:36px;
+	padding: 0 477px;
+}
+.link-404{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 113px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.link-404 .kode_link_6{
+	margin: 0 15px;
+	color: #fff;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.kf-404-des .social-style-3{
+	float: left;
+	width: 100%;
+	text-align: center;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+/*
+	  ==============================================================
+		   FOOTER CSS START
+	  ==============================================================
+*/
+.footer-bg{
+	background-image: url(extra-images/footer-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	padding: 70px 0;
+}
+.footer-bg:before{
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background-color:#000;
+	opacity: 0.9; 
+	z-index: -1;
+}
+.footer-bg:after{
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background-image: url(extra-images/footer-overly.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.65; 
+	z-index: -1;
+}
+/*
+	  ==============================================================
+		   COMING SOON CSS START
+	  ==============================================================
+*/
+.coming-soon-wrap{
+	float: left;
+	width: 100%;
+	position: relative;
+	background-image: url(extra-images/comingsoon-bg.jpg);
+	background-repeat: no-repeat;
+	background-origin: center;
+	background-size: cover;
+	z-index: 1;
+	padding: 70px 0 130px;
+}
+.coming-soon-wrap:before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.75;
+	content: "";
+	z-index: -1;
+}
+.topbar-coming-soon{
+	float: left;
+	width: 100%;
+	padding: 0px 107px 0px 160px;
+	margin-bottom: 14px;
+}
+.topbar-coming-soon .logo{
+	float: left;
+	width: 15%;
+}
+.coming-soon-social{
+	float: right;
+	text-align: center;
+}
+.coming-soon-social h2{
+	text-transform: capitalize;
+	line-height: 30px;
+	display: block;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.coming-soon-social .social-style-3 li a:hover{
+	color: #fff;
+}
+.coming-soon-dec{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.coming-soon-dec h6{
+	display: block;
+	color: #fff;
+	line-height: 60px;
+	font-size: 60px;
+	text-transform: capitalize;
+	margin-bottom: 39px;
+}
+.coming-soon-dec > p{
+	color: #fff;
+	margin-bottom: 66px;
+	padding: 0 168px;
+}
+.coming-soon-dec .countdown{
+	margin-bottom: 70px;
+}
+.countdown{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.countdown li{
+	display: inline-block;
+	width: 15%;
+	margin-right: 130px;
+	position: relative;
+	border:1px solid;
+	text-align: center;
+	padding: 31px 0 31px;
+}
+.countdown li:last-child{
+	margin-right: 0;
+}
+.countdown li:before{
+	content: "";
+	width: 50%;
+	right:-1px;
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	border-width:1px 1px 1px 0px;
+	border-style: solid;
+	border-color: #fff; 
+}
+.countdown li span{
+	font-size: 40px;
+	color: #fff;
+	font-family: 'Lusitana', serif;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 17px;
+}
+.countdown li span:before{
+	content: "";
+	left:0;
+	right: 0;
+	bottom: -1px;
+	height: 1px;
+	background-color: #fff;
+	position: absolute;
+}
+.countdown li p{
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	font-family: 'Lusitana', serif;
+	font-weight: normal;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	padding: 0;
+	position: relative;
+	z-index: 10;
+}
+.coming-soon-dec form{
+	width: 700px;
+	float: none;
+	margin: auto;
+}
+.coming-soon-dec .reservation-input{
+	position: relative;
+	background-color: #fff;
+}
+.coming-soon-dec .reservation-input input[type="text"]{
+	height: 59px;
+	line-height: 60px;
+	font-size: 16px;
+	border: none;
+	padding: 0 180px 0 20px;
+	background-color: #fff;
+	color: #999999;
+}
+.coming-soon-dec .reservation-input input[type="text"]::-moz-placeholder{
+	color: #999999;
+	opacity:1;
+}
+.coming-soon-dec .reservation-input input[type="text"]:focus{
+	box-shadow:0 10px 8px 0 rgba(0, 0, 0, 0.3) inset;
+}
+.coming-soon-dec .reservation-input button{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	right: 0;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 18px;
+	padding: 0 45px;
+	font-family: 'Lusitana', serif;
+}
+/*******************************************************************
+                        end  go up
+*********************************************************************/
+.go-up{
+
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    right: 20px;
+    bottom: 20px;
+    background: #232323;
+    cursor: pointer;
+    text-align: center;
+    z-index: 9999;
+    color: #ffffff;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+}
+
+.go-up:hover{
+
+    background-color: #1a1a1a;
+}
+
+.go-up i{
+    color: #ffffff;
+}
+.go-up:hover i{
+    -webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+
+}
+/*
+=================================================
+		Sign up Form CSS
+=================================================
+*/
+.user-box{
+	float:left;
+	width:100%;
+	background-color:#fff;
+	padding:30px 45px 30px 45px;
+	text-align:center;
+}
+.user-box h2{
+	font-size:22px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px 0px 30px 0px;
+	color:#2f2f2f;
+}
+.user-box form{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.user-box .form{
+	float:left;
+	width:100%;
+}
+.input-container{
+	float:left;
+	width:100%;
+	position:relative;
+	margin:0px 0px 20px 0px;
+}
+.input-container i{
+	position:absolute;
+	width:16px;
+	height:18px;
+	left:18px;
+	top:16px;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	color:#a8b6c3;
+	z-index:250;
+}
+.input-container i.name{
+	background-image:url(../images/signin.html);
+}
+.input-container i.pass{
+	background-image:url(../images/register.html);
+}
+.input-container i.company{
+	background-image:url(../images/company.html);
+}
+.input-container i.mail{
+	background-image:url(../images/e-mail.html);
+	height:12px;
+	top:18px;
+}
+.input-container i.location{
+	background-image:url(../images/location.html);
+}
+.input-container i.destination{
+	background-image:url(../images/destination.html);
+}
+
+.input-container input[type="text"], .input-container input[type="password"]{
+	padding:6px 20px 6px 40px;
+	font-size:15px;
+	color:#66727f;
+	background-color:#f9f9f9;
+	box-shadow:0px 3px 3px 0px rgba(0,0,0,0.05) inset;
+	-moz-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.05) inset;
+	-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.05) inset;
+	height: 48px;
+	width: 100%;
+	border-radius: 3px;
+	border: 2px solid #d6d9dd; 
+}
+.user-box .input-container .radio-value{
+	height:20px;
+	width:20px;
+	float:left;
+	background-size:10px auto;
+	margin:0px 10px 0px 0px;
+}
+/*.input-container span {
+    float: right;
+    font-size: 22px;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+	color:#c4cdd6;
+}*/
+.input-container span.add-on{
+	position:absolute;
+	left:15px;
+	top:13px;
+	height:100%;
+	color:#c4cdd6;
+}
+.user-box .input-container .radio{
+	float:left;
+}
+.user-box .input-container label{
+	float:left;
+	width:100%;
+	font-size:12px;
+	color:#9baab9;
+	text-align:left;
+}
+.user-box .input-container label p{
+	float:left;
+	margin:2px 0px;
+	font-weight:normal;
+	line-height: normal;
+}
+.user-box .input-container .radio, .user-box .input-container .checkbox{
+	margin:0px;
+}
+
+.btn-style{
+	float:left;
+	width:100%;
+	font-size:16px;
+	color:#fff;
+	border:none;
+	padding:12px 20px;
+	border-radius:3px;
+	text-align:center;
+	height:48px;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.btn-style:hover{
+	background-color:#636e80;
+}
+.user-box .option{
+	float:left;
+	width:100%;
+	position:relative;
+	margin:0px 0px 15px 0px;
+}
+.user-box .option:before, .user-box .option:after{
+	position:absolute;
+	content:"";
+	height:1px;
+	width:38%;
+	background-color:#ecf1f5;
+	left:0px;
+	top:50%;
+}
+.user-box .option:after{
+	left:auto;
+	right:0px;
+}
+.user-box .option h5{
+	font-size:14px;
+	color:#b2becd;
+}
+.user-box .social-login{
+	float:left;
+	width:100%;
+}
+.user-box .social-login a{
+	float:left;
+	width:50%;
+	padding:12px 15px;
+	font-size:14px;
+	color:#fff;
+	border:none;
+	font-weight:normal;
+	text-align:left;
+	margin:0px;
+	line-height: normal;
+}
+.user-box .social-login a i{
+	font-size:18px;
+	margin:0px 10px 0px 0px;
+	float: left;
+}
+.user-box .social-login a.google{
+	background-color:#dc4a38;
+	border-radius:3px 0px 0 3px;
+}
+.user-box .social-login a.facebook{
+	background-color:#44619d;
+	border-radius:0px 3px 3px 0px;
+}
+.user-box-footer{
+	float:left;
+	width:100%;
+	background-color:#f9fbfd;
+	border-top:solid 1px #ecf1f5;
+	padding:18px 20px;
+	text-align:center;
+}
+.user-box-footer > p{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.user-box-footer a{
+	color:#72c8fa;
+}
+#register .nav-tabs{
+	border:none;
+	margin-top:50px;
+}
+#register .nav-tabs > li{
+	width:50%;
+	border:none;
+}
+#register .nav-tabs > li a{
+	border-radius:0px;
+	text-align:center;
+	font-size:18px;
+	color:#a5afb9;
+	font-weight:bold;
+	padding:18px 15px;
+	font-family: 'Droid Sans', sans-serif;
+	margin:0px;
+	border:none;
+	background-color:#f7f7f7;
+}
+#register .nav-tabs > li.active a, #register .nav-tabs > li a:hover{
+	background:none;
+}
+.input-container .dropdown{
+	float:left;
+	width:100%;
+}
+.input-container .dropdown button{
+	float:left;
+	width:100%;
+	border: 2px solid #d6d9dd;
+    border-radius: 3px;
+    min-height: 48px;
+    padding: 6px 20px 6px 32px;
+    width: 100%;
+	color:#c4cdd6;
+	text-align:left;
+	font-family:15px;
+	
+}
+.input-container .dropdown button p{
+	float:left;
+	margin:0px;
+}
+.input-container .dropdown button span{
+	float:right;
+	font-size:22px;
+}
+.input-container .dropdown button p{
+	margin:0px;
+}
+.input-container .btn-default:hover, .input-container .btn-default:focus, .input-container .btn-default.focus, .input-container .btn-default:active, .input-container .btn-default.active, .input-container .open > .dropdown-toggle.btn-default{
+	background:none;
+	border: 2px solid #d6d9dd;
+	color:#687a8d;
+}
+
+.input-container .dropdown .dropdown-menu{
+	min-width:100%;
+}
+
+.filterable-item.col-md-3{
+	width: 24.9% !important
+
+}
+/*
+=================================================
+		CHECKBOX AND RADIO BUTTON CSS
+=================================================
+*/
+label {
+  cursor: pointer;
+}
+label span{
+	float: left;
+	line-height: 20px;
+}
+
+/* hide the "real" radios visually */
+
+.radio input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* style the "fake" radios */
+
+.radio-value {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #d7dfe7;
+  border-radius: 3px;
+  display: inline-block;
+  height:28px;
+  margin-right:5px;
+  position: relative;
+  vertical-align: -0.5em;
+  width: 28px;
+}
+
+input:checked + .radio-value {
+  background-image:url(images/tick.png);
+  border-color:#88d3ff;
+}
+
+.kode_wrapper button.close{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	z-index: 100;
+
+}
+.effect a,
+.effect a img{
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;	
+}
+.counterup-bg{
+	position:relative;
+	width:100%;
+	float:left;
+}
