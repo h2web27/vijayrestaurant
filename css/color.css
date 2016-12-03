@@ -1,0 +1,463 @@
+/*
+	  ============================================================
+		   Font Color
+	  ============================================================
+*/
+.kode_menu ul ul li:hover a,
+/********************************************SHORT CODE PAGE***********************************/
+.social-style-1 li a:hover,
+.kode-counter-up li p,
+.search-btn-2,
+.comment_reply,
+/*********************************************HOME PAGE*********************************************/
+.lungueg-wrap li a:hover,
+.navigation3 ul li a:hover,
+.kode-reservation-bg .kode_link_2:hover,
+.lung-wrap .dropdown.drop.open .btn,
+.lung-wrap .selectric-items li .selected,
+.lung-wrap .selectric:hover .label,
+.lung-wrap li a:hover,
+.admin-wrap li a:hover,
+.kode-food-meta li i,
+.kode-link-hd h5,
+.kode-recipies-des .text > span,
+.kode-recipies-des:hover .text i,
+.kode-master-chef:hover .master-chef-hd h3 a,
+.reservation-input .datepicker th.switch,
+.reservation-input .datepicker th.next,.reservation-input  .datepicker th.prev,
+.reservation-input .datepicker td.old,.reservation-input .datepicker td.new,
+.blockquote-3:hover,
+.deal-meta-links li a:hover,
+.contact-links li span i,
+.contact-links li a:hover,
+.kode-top-search:hover i,
+.blog-link li a:hover,
+.kode-blog-des:hover .text h4 a,
+.kode-copyright .pull-left p b:hover,
+.kode_menu ul ul li:hover a,
+/*********************************************RESERVATION PAGE*********************************************/
+.kode-price-tag figcaption > a,
+.picetag-meta li a:hover,
+
+/*********************************************MENU PARALLAX PAGE*********************************************/
+.menu-parallax-meta li:hover .price-tag,
+.menu-parallax-meta li a:hover,
+/*********************************************OUR MENU 1 PAGE*********************************************/
+.blog-1-meta li a,
+/*********************************************OUR MENU 2 PAGE*********************************************/
+.menu-tab-des .text > span,
+.menu-tab-des .text > a:hover,
+.tabs-menu-meta a,
+.kode-menu-tab-contant:hover .text h4 a,
+.kode-our-menu-tab-wrap .nav.nav-tabs.nav.nav-tabs .active a,
+.kode-our-menu-tab-wrap .tabs-navigation li a:hover,
+.tabs-navigation button:hover span,
+.tabs-navigation button.is-checked:hover span,
+.tabs-navigation button.is-checked span,
+/*********************************************RECIPE SINGLE 2 PAGE*********************************************/
+.recipe-prepration figcaption a,
+.blog-des-heading span,
+.thumb-log i,
+.comment-link-meta a:hover span,
+.comment-link-meta a:hover span i,
+.comment-link-meta a:hover,
+/*********************************************ABOUT US PAGE*********************************************/
+.kode-inner-banner .breadcrumb li a:hover,
+.kode_link_4:hover i,
+.recipies-style-2:hover .text h4 a,
+
+/*********************************************OUR MASTER CHEFFS PAGE*********************************************/
+
+
+/*********************************************BLOG DETAIL PAGE*********************************************/
+.author a,
+.pages-links li a:hover,
+.social-links li a:hover,
+.comment_des_hed cite span,
+.blog-detail-form textarea:focus::-moz-placeholder,
+.blog-detail-form input[type="text"]:focus::-moz-placeholder,
+.comment_des_hed cite a:hover,
+.blog-detail-hd ul li a:hover,
+.blog-detail-hd ul li:hover i,
+/*********************************************OUR BLOG PAGE*********************************************/
+.widget-r-stories ul li:hover .text h4 a,
+.widget-categories ul li a:hover,
+.widget-categories ul li a:hover span,
+/*********************************************OUR BLOG 2 PAGE*********************************************/
+
+.kode-blog-3:hover h3 a,
+/*********************************************OUR GALLERY PAGE*********************************************/
+.gallery2 figcaption .kode-food-hdg-3 h3,
+.social-style-2.style-4 li a,
+/*********************************************CONTACT US PAGE*********************************************/
+.kode-contact:hover span,
+.kode-contact:hover h4,
+.kode-contact ul li a:hover,
+
+/*********************************************COMING SOON PAGE*********************************************/
+.kf-404-des span i,
+.social-style-3 li a:hover
+/*********************************************404 PAGE*********************************************/
+
+{
+	color:#be951f;	
+}
+
+
+
+/*
+	  ============================================================
+		   Background Color
+	  ============================================================
+*/
+/********************************************SHORT CODE PAGE***********************************/
+.kode-food-hdg-1,
+.social-shortcode .social-style-3 li > a:hover,
+.btn-style,
+.kode-food-hdg-3 h3:before,
+.kode-food-hdg-4 h3:before,
+.kode-food-hdg-4 h3:after,
+.kode-food-hdg-5 h3:before,
+.kode-food-hdg-5 h3:after,
+.kode-food-hdg-6 h3:before,
+.kode-food-hdg-6 h3:after,
+.kode-food-hdg-7 h3:before,
+.kode-food-hdg-7 h3:after,
+/*button*/
+.kode_link_1,
+.kode_link_3,
+.kode_link_2:hover,
+.kode_link_6:hover,
+/*social style*/
+.social-style-2,
+/*testimonial*/
+.kode-testimonial-slider .owl-theme .owl-controls .owl-page.active span:before,
+.pagination li.active a,
+.pagination li.active a:hover,
+.pagination li a:hover,
+.kode_link_5:hover,
+.popular-tag:hover,
+.comment_reply:hover,
+.submit-btn,
+.kode-button-style .active,
+/*********************************************HOME PAGE*********************************************/
+.kode_menu ul li a:before,
+.lung-wrap .dropdown-menu li:hover,
+.kode_menu ul .active > a:before,
+.kode-food-meta li:hover i:after,
+.kode-we-are-wrap .thumb:after,
+.kode-blog-des .date,
+.reservation-input .selectric-scroll > ul li:hover,
+.reservation-input .selectric-scroll > ul li.selected,
+.reservation-input .datepicker td.active,.reservation-input  .datepicker td.active:hover,
+.ui-timepicker-standard a.ui-corner-all:hover,
+.kode-testimonial-hd,
+.lung-wrap .selectric-items li:hover,
+.lung-wrap  .selectric-items li.selected,
+.navigation3 ul li a:hover:before,
+.navigation3 ul li a:hover:after,
+/*********************************************RESERVATION PAGE*********************************************/
+
+
+/*********************************************MENU PARALLAX PAGE*********************************************/
+
+
+/*********************************************OUR MENU 2 PAGE*********************************************/
+.kode-our-menu-tab-wrap .nav.nav-tabs.nav.nav-tabs .active a:before,
+.kode-our-menu-tab-wrap .tabs-navigation li a:before,
+.kode-our-menu-tab-wrap .tabs-navigation button span:before,
+.kode-our-menu-tab-wrap .tabs-navigation button.is-checkd span:before,
+
+/*********************************************RECIPE SINGLE 2 PAGE*********************************************/
+
+
+/*********************************************ABOUT US PAGE*********************************************/
+.kode_link_4::before,
+.kode_link_4:hover,
+
+/*********************************************OUR MASTER CHEFFS PAGE*********************************************/
+
+
+/*********************************************BLOG DETAIL PAGE*********************************************/
+.comment_des_hed .comment_reply,
+.effect:hover img,
+/*********************************************OUR BLOG PAGE*********************************************/
+
+.thumb-slider .bx-wrapper .bx-controls-direction a:hover,
+.search-icon-button,
+.widget-categories ul li a:hover:before,
+.widget-r-stories ul li:hover figure:before,
+/*********************************************OUR BLOG 2 PAGE*********************************************/
+
+/*********************************************OUR BLOG 3 PAGE*********************************************/
+.date,
+.kode-blog-3:hover .kode_link_5,
+/*********************************************OUR GALLERY PAGE*********************************************/
+
+
+/*********************************************CONTACT US PAGE*********************************************/
+.kode-contact:hover h4:before,
+.send-button:hover,
+
+/*********************************************COMING SOON PAGE*********************************************/
+.coming-soon-social .social-style-3 li a:hover,
+.coming-soon-dec .reservation-input button
+/*********************************************404 PAGE*********************************************/
+{
+	background-color:#be951f;	
+}
+
+
+/*
+	  ============================================================
+		   Border Color
+	  ============================================================
+*/
+/********************************************SHORT CODE PAGE***********************************/
+.kode_link_2,
+.search-btn-2,
+.pagination li.active a,
+.pagination li a:hover,
+.kode_link_6:hover,
+.comment_reply,
+.comment_reply:hover,
+/*********************************************HOME PAGE*********************************************/
+.kode-food-meta li i,
+.kode-food-meta li i:after,
+.kode-master-chef figure:before,
+.kode-blog-des,
+.reservation-input textarea:focus,
+.reservation-input input[type="text"]:focus,
+.reservation-input .selectric-wrapper.selectric-basic.selectric-open:focus,
+/*********************************************RESERVATION PAGE*********************************************/
+.kode-price-tag:hover,
+
+/*********************************************MENU PARALLAX PAGE*********************************************/
+.parallex-des-2 .text:before,
+
+/*********************************************OUR MENU 2 PAGE*********************************************/
+.kode-menu-tab-contant:hover figure:after,
+
+/*********************************************RECIPE SINGLE 2 PAGE*********************************************/
+
+
+/*********************************************ABOUT US PAGE*********************************************/
+.kode_link_4,
+.kode_link_4:hover,
+.recipies-style-2:hover .text,
+
+/*********************************************OUR MASTER CHEFFS PAGE*********************************************/
+
+.recipies-style-3 .text:before,
+/*********************************************BLOG DETAIL PAGE*********************************************/
+.blockquote-1,
+
+/*********************************************OUR BLOG PAGE*********************************************/
+
+
+/*********************************************OUR BLOG 3 PAGE*********************************************/
+.kode-blog-3:hover .kode_link_5,
+.kode-blog-3:hover,
+/*********************************************OUR GALLERY PAGE*********************************************/
+
+
+/*********************************************CONTACT US PAGE*********************************************/
+.kode-contact:hover,
+
+/*********************************************COMING SOON PAGE*********************************************/
+.countdown li
+
+/*********************************************404 PAGE*********************************************/
+{
+	border-color:#be951f ;	
+}
+
+
+
+/*
+	  ============================================================
+		   Transaction Effect
+	  ============================================================
+*/
+/********************************************SHORT CODE PAGE***********************************/
+.social-style-1 li a,
+.social-style-2 li a,
+.kode-testimonial-slider .owl-theme .owl-controls .owl-page.active span:before,
+.kode-testimonial-slider .owl-theme .owl-controls .owl-page span:before,
+.kode_link_2,
+.kode_link_1,
+.kode_link_3,
+.reservation-input input[type="text"],
+.reservation-input .selectric-wrapper,
+.reservation-input textarea,
+.search-btn-2,
+.pagination li.active a,
+.pagination li a,
+.kode-blog-6,
+.kode_link_6,
+.search-icon-button,
+.popular-tag,
+.popular-tag:before,
+.submit-btn,
+.comment_reply,
+/*********************************************HOME PAGE*********************************************/
+.lungueg-wrap li a,
+.lung-wrap .dropdown-menu li,
+.lung-wrap .dropdown-menu li a,
+.lung-wrap .selectric .label,
+.lung-wrap .selectric .selected,
+.lung-wrap li a,
+.header-3,
+.admin-wrap li a,
+.kode_menu ul li a:before,
+.kode_menu ul li a.active:before,
+.kode-food-meta li i,
+.kode-food-meta li:hover i:after,
+.kode-master-chef figure:before,
+.kode-master-chef figure figcaption,
+.master-chef-hd h3 a,
+.reservation-input .selectric-scroll > ul li,
+.blockquote-3,
+.deal-meta-links li a,
+.contact-links li a,
+.kode-top-search i,
+.kode-master-chef figure,
+.kode-master-chef figure img,
+.blog-link li a,
+.kode-recipies-des .text i,
+.kode-recipies-des figure img,
+.kode-blog-des figure img,
+.kode-blog-des .text h4,
+.kode-blog-des:hover .text h4,
+.kode-blog-des:hover .text h4 a,
+.kode_menu ul ul,
+.kode_menu ul li,
+.navigation3 ul li a,
+.navigation3 ul li a:before,
+.navigation3 ul li a:after,
+.navigation3 ul,
+.navigation3 ul li,
+.navigation3 ul ul a,
+/*********************************************RESERVATION PAGE*********************************************/
+.picetag-meta li a,
+.kode-price-tag,
+.kode-price-tag:hover figure:before,
+.kode-price-tag figcaption > a,
+
+/*********************************************MENU PARALLAX PAGE*********************************************/
+.price-tag,
+.menu-parallax-meta li a,
+/*********************************************OUR MENU 2 PAGE*********************************************/
+.menu-tab-des .text > a,
+.tabs-menu-meta a,
+.menu-tab-des .text h4 a,
+.kode-menu-tab-contant figcaption,
+.kode-menu-tab-contant figure:before,
+.col-md-4.kode-menu-tab-contant > figure:before,
+.kode-menu-tab-contant,
+.kode-our-menu-tab-wrap .nav.nav-tabs.nav.nav-tabs .active a:before,
+.kode-our-menu-tab-wrap .tabs-navigation li a:before,
+.kode-menu-tab-contant figure img,
+.kode-menu-tab-contant,
+.kode-our-menu-tab-wrap .tabs-navigation button span,
+.kode-our-menu-tab-wrap .tabs-navigation button span:before,
+.kode-our-menu-tab-wrap .tabs-navigation button.is-cheked,
+
+/*********************************************RECIPE SINGLE 2 PAGE*********************************************/
+.recipe-prepration figcaption a,
+.recipe-prepration figcaption,
+.ingrident-des figure:before,
+.recipe-prepration figure:before,
+.comment-link-meta a,
+.comment-link-meta a span,
+.comment-link-meta a span i,
+/*********************************************ABOUT US PAGE*********************************************/
+.kode-inner-banner .breadcrumb li a,
+.kode_link_4,
+.kode_link_4:before,
+.kode_link_4 i,
+.recipies-style-2 .text h4 a,
+.recipies-style-2 .text,
+
+/*********************************************OUR MASTER CHEFFS PAGE*********************************************/
+
+.recipies-style-3 .text:before,
+/*********************************************BLOG DETAIL PAGE*********************************************/
+.blog-detail-slider .owl-theme .owl-controls .owl-page span,
+.pages-links li a,
+.social-links li a,
+.comment_des_hed cite a,
+.blog-detail-hd ul li a,
+.blog-detail-hd ul li i,
+.effect img,
+/*********************************************OUR BLOG PAGE*********************************************/
+.thumb-slider .bx-wrapper .bx-controls-direction a,
+.blog-1 figure img,
+.thumb-slider #bx-pager > a,
+.thumb-slider #bx-pager > a img,
+.widget-search .search-button,
+.widget-categories ul li a,
+.widget-categories ul li a:before,
+.widget-categories ul li a span,
+.widget-instagram ul li img,
+.kode-menu-tab-contant figure:after,
+.kode-menu-tab-contant figure::before,
+.kode-menu-tab-contant figure img,
+.kode-menu-tab-contant figure img:before,
+/*********************************************OUR BLOG 2 PAGE*********************************************/
+.kode-blog-3 h3 a,
+.kode_link_5,
+.kode-blog-3,
+.widget-r-stories ul li figure:before,
+.widget-r-stories ul li figure figcaption,
+.widget-r-stories .text h4 a,
+/*********************************************OUR GALLERY PAGE*********************************************/
+.gallery2-navigation .button,
+.gallery2::before,
+.gallery2 figcaption,
+/*********************************************CONTACT US PAGE*********************************************/
+.kode-contact,
+.kode-contact span,
+.kode-contact h4,
+.kode-contact h4:before,
+.kode-contact li a,
+.kode-map .contact-input2 textarea::-moz-placeholder,
+.contact-input input[type="text"]::-moz-placeholder,
+.send-button,
+.deal-thumb figure img,
+/*********************************************COMING SOON PAGE*********************************************/
+.social-style-2 li a,
+.btn-style,
+/*********************************************404 PAGE*********************************************/
+.social-style-3 li a,
+.kode_menu ul ul,
+.kode-recipies-des figure img,
+.widget-categories ul li,
+.widget-categories ul li a,
+.widget-categories ul li a::before
+{
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+}
+
+
+/*
+	  ============================================================
+		  Content Selection
+	  ============================================================
+*/
+::selection {
+    background: #be951f;
+    color:#fff;
+}
+::-webkit-selection {
+    background: #be951f;
+    color: #fff;
+}
+::-moz-selection {
+    background: #be951f;
+    color: #fff;
+}

@@ -1,0 +1,223 @@
+.widget{
+	float: left;
+	width: 100%;
+}
+footer .widget .kode-food-hdg-7 h3{
+	color: #fff;
+}
+.widget-text p{
+	color: #fff;
+	float: left;
+	margin: -8px 0 44px 0;
+}
+.blockquote-3{
+	position: relative;
+	float: left;
+	text-transform: capitalize;
+	font-family: 'Libre Baskerville', serif;
+	padding: 0 9px;
+	display: inline-block;
+	color: #fff;
+	font-size: 22px;
+	margin-bottom: 11px;
+}
+.blockquote-3:before{
+	content: "";
+	left: -0px;
+	top: 0;
+	position: absolute;
+	font-family: FontAwesome;
+	color: #fff;
+	font-size: 5px;
+}
+.blockquote-3:after{
+	content:"";
+	right: -0px;
+	bottom: 0;
+	position: absolute;
+	font-family: FontAwesome;
+	color: #fff;
+	font-size: 5px;
+}
+.widget-text span{
+	float: left;
+	width: 100%;
+	line-height: 16px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Lusitana', serif;
+}
+/*deal meta*/
+.deal-meta{
+	float: left;
+	width: 100%;
+	margin-bottom: 6px;
+}
+.deal-meta li{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.deal-thumb{
+	float: left;
+	width: 100%;
+}
+.deal-thumb figure{
+	float: left;
+	width: 65px;
+	height: 57px;
+}
+.deal-thumb:hover figure img{
+	opacity: 0.5;
+}
+.deal-thumb .text{
+	float: none;
+	width: auto;
+	overflow: hidden;
+	padding: 8px 0 5px 15px;
+}
+.deal-thumb .text h6{
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	line-height: 18px;
+}
+.deal-thumb .text h6 a{
+	color: #fff;
+}
+.deal-meta-links{
+	float: left;
+	width: 100%;
+}
+.deal-meta-links li{
+	float: left;
+	margin-right: 5px;
+	width: auto;
+	margin-bottom: 0;
+}
+.deal-meta-links li a{
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+	text-transform: lowercase;
+	position: relative;
+	padding:0  3px 0 0;
+	font-style: italic;
+}
+.deal-meta-links li a:before{
+	content:",";
+	right: -1px;
+	bottom: 0;
+	position: absolute;
+	color: #fff;
+	font-size: 10px;
+}
+.deal-meta-links li:last-child a:before{
+	font-size: 0;
+}
+/*contact us*/
+.contact-links{
+	float: left;
+	width: 100%;
+	margin-top: -1px;
+}
+.contact-links li{
+	float: left;
+	width: 100%;
+	margin-bottom: 26px;
+}
+.contact-links li span{
+	float: left;
+	width: 97px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Lusitana', serif;
+	line-height: 16px;
+}
+.contact-links li span i{
+	font-size: 16px;
+	line-height: 16px;
+	margin-right: 13px;
+}
+.contact-links li em,
+.contact-links li a,
+.contact-links li p,
+.contact-links li address{
+	float: none;
+	overflow: hidden;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 0;
+	font-style: normal;
+}
+.contact-links li p{
+	margin-bottom: 0;
+	line-height: 16px;
+}
+
+.contact-links li em{
+	font-size: 15px;
+	display: block;
+	line-height: 15px;
+}
+.contact-links a {
+    display: block;
+    line-height: 16px;
+}
+/*copy right*/
+.kode-copyright{
+	float: left;
+	width: 100%;
+	background-color:#070503;
+	text-align: center; 
+	position: relative;
+	padding: 19px 0 21px;
+}
+.kode-copyright .pull-left p,
+.kode-copyright .pull-right p{
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 16px;
+	font-family: 'Lusitana', serif;
+	color: #fff;
+	text-transform: capitalize;
+}
+.kode-copyright .pull-left p b{
+	text-transform: uppercase;
+}
+.kofe-footer-logo{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 148px;
+	margin:0 auto;
+	padding: 15px 0 15px 0; 
+	z-index: 2;
+}
+.kofe-footer-logo:before{
+	width:148px;
+	height:100px;
+	position: absolute;
+	top: -10px;
+	left:0px;
+	content: "";
+	border-radius:100%;
+	background-color:#070503;
+}
+.kofe-footer-logo a{
+	position:relative;
+}
+/*.kofe-footer-logo:after{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 36px 0 0 11px;
+	border-color: transparent transparent transparent #070503;
+	position: absolute;
+	top: 0;
+	right: -11px;
+	content: "";
+}*/

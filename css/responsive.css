@@ -1,0 +1,811 @@
+/*
+=================================================
+			FROM 992PX TO 1199PX
+=================================================
+*/ 
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.kf-404-des{
+		margin-top: -270px;
+	}
+	.kf-404-des span i, .kf-404-des span{
+		font-size: 200px;
+		line-height: 200px;
+	}
+	.link-404{
+		margin-bottom: 20px;
+	}
+}
+/*
+=================================================
+			FROM 992PX TO 1199PX
+=================================================
+*/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+	.kode-we-are-wrap .thumb figure {
+	    margin-bottom: 0px;
+	    overflow: inherit;
+	    top: 0px;
+	}
+	.kode-we-are-wrap .text{
+		padding: 66px 25px 20px;
+	}
+	.kode-link-hd h5 a{
+		font-size: 14px;
+	}
+	.kode-counter-up li {
+	    height: 180px;
+	    padding: 50px 0 14px;
+	}
+	.kode-counter-up li::before {
+	    font-size: 104px;
+	    line-height: 180px;
+	    width: 180px;
+	}
+	.kode-counter-up li span {
+	    font-size: 44px;
+	    line-height: 44px;
+	}
+	.kode-counter-up li i {
+	    font-size: 44px;
+	}
+	.kode-counter-up li p{
+		font-size: 15px;
+	}
+	.kode-blog-des figure {
+	    width: 184px;
+	}
+	.kode-blog-des .text{
+		padding: 10px 10px 0;
+	}
+	.blog-link li{
+	    padding: 0px 20px 0px;
+	}
+	.kode-testimonial-des figure{
+		margin-right: 0;
+	}
+	.kode-testimonial-des .blockquote-2{
+		padding: 24px 16px 23px;
+	}
+	.blockquote-2 p{
+		font-size: 16px;
+	}
+	.coming-soon-dec h6 {
+	    font-size: 50px;
+	    line-height: 50px;
+	    margin-bottom: 19px;
+	}
+	.coming-soon-dec > p{
+		padding:0 88px; 
+	}
+	.coming-soon-dec .countdown li{
+		margin-right: 80px;
+	}
+	.menu-parallex-des .text{
+		position: inherit;
+		top: inherit;
+		padding: 30px;
+		width: 50%;
+		margin: 0 15px;
+	}
+	.menu-parallex-des figure{
+		width: 50%;
+	}
+	.parallex-des-2 .text{
+		width: 60%;
+	}
+	.recipe-meta li{
+		padding: 0 15px;
+	}
+	.ingrident-des .text{
+		padding: 0;
+	}
+	.thumb-slider #bx-pager > a{
+		float: left;
+		width: 19.2%;
+	}
+	.social-links li{
+		margin-left: 8px;
+	}
+	.blockquote-3{
+		font-size: 18px;
+	}
+	.kode-blog-3{
+		padding-top: 115px;
+	}
+	.kode-contact{
+		padding: 27px 18px 30px;
+	}
+	.kf-404-des{
+		margin-top: -250px;
+	}
+	.kf-404-des span i, .kf-404-des span{
+		font-size: 180px;
+		line-height: 180px;
+	}
+	.kf-404-des h5{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.kf-404-des p{
+		padding: 0;
+	}
+	.link-404{
+		margin-bottom: 40px;
+	}
+	.navigation3 ul li{
+		margin-right: 23px;
+	}
+	.recipies-style-2 .text{
+		width: 100%;
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 979PX
+=================================================
+*/ 
+@media (max-width: 991px) {
+	.header-3 .dl-menuwrapper{
+		display:block;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		margin-top: -20px;
+	}
+	.kode_ui_element .dl-menuwrapper{
+		display:block;
+	}
+	.navigation3{
+		display: none;
+	}
+	.kode_menu {
+		display: none;
+	}
+	header.sticky .kode-logo{
+		width: 20%;
+	}
+	header.sticky .container{
+		position: relative;
+	}
+	header.sticky .kode_navigation_outr_wrap{
+		position: absolute;
+		top: 50%;
+		margin: -20px 0 0 0;
+		right: 15px;
+		padding: 0;
+	}
+	.kode-logo {
+	    width: auto;
+	    padding: 30px 0;
+	    text-align: left;
+	}
+	.kode-logo a{
+		width: 35%;
+	}
+	.header2 .kode-logo{
+		padding-top: 30px;
+	}
+	.header2 .kode-logo a{
+		width: 35%;
+	}
+	.kode_navigation3_wrap{
+		padding: 10px 0;
+		position: relative;
+	}
+	.header-3.sticky .kode_navigation3_wrap{
+		padding: 5px 0;
+	}
+	.kode-logo3{
+		position: inherit;
+		width: 20%;
+		float: left;
+		padding: 0;
+		height: inherit;
+		background: transparent;
+		border-radius: 0;
+		margin: 0;
+		line-height: normal;
+	}
+	.header-3.sticky .kode-logo3{
+		width: inherit;
+		line-height: normal;
+		height: inherit;
+		width: 20%;
+		float: left;
+	}
+	.kode-inner-banner{
+		padding: 60px 0;
+	}
+	.kode_navigation_outr_wrap{
+		float: right;
+		width: auto;
+		padding: 53px 0;
+	}
+	.kode_caption h2 {
+	    font-size: 50px;
+	    line-height: 50px;
+	}
+	.kode_caption p{
+		display: none;
+	}
+	.kode_caption{
+		margin-top: -48px;
+	}
+	.kode-home-banner .bxslider li img{
+		height: auto;
+	}
+	.we-are-bg{
+		padding: 70px 0 40px;
+	}
+	.kode-we-are-wrap .thumb{
+		display: none;
+	}
+	.kode-we-are-wrap .text{
+		width: 100%;
+		padding: 26px 30px 0;
+	}
+	.kode-we-are-wrap::before {
+	    border: 10px solid #e3e3e3;
+	    bottom: 0px;
+	    content: "";
+	    left: 0px;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    z-index: -1;
+	}
+	.kode-recipies-des{
+		width: 50%;
+	}
+	.widget-text{
+		margin-bottom: 30px;
+	}
+	.widget-deal-meta{
+		margin-bottom: 30px;
+	}
+	.kode-counter-up li {
+	    height: 160px;
+	    padding: 50px 0 14px;
+	}
+	.kode-counter-up li::before {
+	    font-size: 104px;
+	    line-height: 160px;
+	    width: 160px;
+	}
+	.kode-counter-up li span {
+	    font-size: 44px;
+	    line-height: 44px;
+	}
+	.kode-counter-up li i {
+	    font-size: 44px;
+	}
+	.kode-counter-up li p{
+		font-size: 15px;
+	}
+	.kode-blog-des figure{
+		width: 178px;
+	}
+	.kode-about-us-des .text{
+		margin-bottom: 30px;
+	}
+	.reservation-style-2 .text p{
+		padding:0; 
+	}
+	.kode-recipies-des.recipies-style-3{
+		width: 100%;
+	}
+	.topbar-coming-soon{
+		padding: 0 50px;
+	}
+	.topbar-coming-soon .logo{
+		width: 18%;
+	}
+	.coming-soon-dec > p{
+		padding: 0;
+	}
+	.countdown li{
+		margin-right: 80px;
+	}
+	.social-style-3 li{
+		margin:0 3px; 
+	}
+	.topbar-coming-soon .logo {
+	    width: 35%;
+	}
+	.coming-soon-dec h6{
+		font-size:40px; 
+	}
+	.countdown li{
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	.coming-soon-dec form{
+		float: left;
+		width: 100%;
+	}
+	.tabs-navigation button span, .tabs-navigation li a{
+		margin-right: 29px;
+	}
+	.menu-parallex-des .text{
+		position: inherit;
+		top: inherit;
+		margin: 0;
+		padding: 30px;
+		width: 100%;
+	}
+	.menu-parallex-des figure{
+		width: 100%;
+	}
+	.parallex-des-2 .text{
+		width: 60%;
+	}
+	.recipe-meta li{
+		padding: 0 29px;
+	}
+	.thumb-slider #bx-pager > a{
+		float: left;
+		width: 19.2%;
+		margin-right: 4px;
+	}
+	.kode-blog-3 figure{
+		position: inherit;
+		left: inherit;
+		top: inherit;
+		width: inherit;
+		right: inherit;
+		margin-bottom: 60px;
+	}
+	.kode-blog-3{
+		padding-top: 30px;
+		margin-top: 0;
+	}
+	.kode-contact{
+		padding: 27px 82px 30px;
+	}
+	.kf-404-des{
+		margin-top: -263px;
+	}
+	.kf-404-des span i, .kf-404-des span{
+		font-size: 180px;
+		line-height: 180px;
+	}
+	.kf-404-des h5{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.kf-404-des p{
+		padding: 0;
+	}
+	.link-404{
+		margin-bottom: 40px;
+	}
+}
+/*
+=================================================
+			FROM 768PX TO 979PX
+=================================================
+*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+/*
+=================================================
+			FROM 0PX TO 767PX
+=================================================
+*/
+@media (max-width: 767px) {
+	.lungueg-wrap{
+		padding: 14px 0 15px;	
+	}
+  	.kode-top-bar .social-style-1{
+  		padding: 10px 30px 9px 0;
+  	}
+  	.kode-top-bar .searchlink{
+  		width: 53px;
+  		height: 45px;
+  	}
+	.kode-inner-banner{
+		padding: 40px 0;
+	}
+  	.kode-top-bar .searchlink i{
+  		line-height: 45px;
+  	}
+  	.kode_caption {
+	    margin-top: 18px;
+	}
+  	.kode_caption h6{
+  		line-height: normal;
+  		font-size: 20px;
+  		margin-bottom: 4px;
+  	}
+  	.kode_caption h2{
+  		font-size: 28px;
+  	}
+  	.kode_caption .kode_link_1{
+  		display: none;
+  	} 
+  	.kode-food-meta li{
+  		width: 100%;
+  	}
+  	.kode-recipies-des{
+  		width: 100%;
+  		margin-bottom: 30px;
+  	}
+  	.kode-counter-up li{
+  		width: 100%;
+  		height: 237px;
+    	padding: 71px 0 53px;
+    	margin-bottom: 30px;
+  	}
+  	.kode-counter-up li::before{
+  		line-height: 237px;
+  		font-size: 150px;
+  		width: 237px;
+  	}
+  	.kode-counter-up li span {
+	    font-size: 72px;
+	    line-height: 72px;
+	}
+	.kode-counter-up li i {
+	    font-size: 64px;
+	}
+	.kode-blog-des .text{
+		padding-top: 10px;
+	}
+	.kode-blog-des .text h4{
+		margin-bottom: 5px;
+	}
+	.kode-blog-des .text p{
+		margin-bottom: 5px;
+	}
+	.blog-link li{
+		padding: 3px 7px 5px;
+	}
+	.kofe-footer-logo{
+		display: none;
+	}
+	.kode-copyright .pull-left{
+		margin-bottom: 20px;
+	}
+	.kode-copyright .pull-right,
+	.kode-copyright .pull-left{
+		width: 100%;
+	}
+	.kode-reservation-bg.reservation-style-2 form{
+		width: 100%;
+	}
+	.recipies-style-2 .text{
+		width: 90%;
+	}
+	.header2{
+		position: absolute;
+		background-color: transparent;
+	}
+	.kode-food-hdg-4.reservation-hd h3{
+		font-weight: 40px;
+	}
+	.kode-recipies-des.recipies-style-3{
+		width: 100%;
+	}
+	.coming-soon-dec .reservation-input button{
+		padding: 0 15px;
+	}
+	.kode-price-tag figcaption{
+		top: 50%;
+		margin-top: -190px;
+	}
+	.tabs-navigation button span, .tabs-navigation li a{
+		margin-right: 30px;
+	}
+	.parallex-des-2 .text{
+		width: 100%;
+		position: inherit;
+		top: inherit;
+		padding: 25px 40px;
+	}
+	.recipe-prepration .text{
+		margin-bottom: 30px;
+	}
+	.ingrident-des .text{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.ingrident-des > figure{
+		width: 100%;
+	}
+	.recipe-meta li{
+		width: 50%;
+		margin-bottom: 10px;
+	}
+	.comment-style-2 .secnd_coment_list{
+		padding: 0 0 0 20px;
+	}
+	.effect{
+		margin-bottom: 30px;
+	}
+	.pages-links{
+		width: 100%;
+		text-align: center;
+	}
+	.social-links{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.kode-blog-3 figure{
+		position: inherit;
+		left: inherit;
+		top: inherit;
+		width: inherit;
+		right: inherit;
+		margin-bottom: 60px;
+	}
+	.kode-blog-3{
+		padding-top: 30px;
+		margin-top: 0;
+	}
+	.kode-contact{
+		padding: 27px 56px 30px;
+	}
+	.kode-map .kode-contact{
+		position: inherit;
+		right: inherit;
+		float: left;
+		width: 100%;
+	}
+	.kode-contact .send-button{
+		width: 100%;
+	}
+	.kode-map > #map-canvas {
+	    height: 250px !important;
+	}
+	.kf-404-des h5 {
+	    font-size: 30px;
+	    line-height: 30px;
+	}
+	.gallery2::before{
+		outline-offset: -20px;
+	}
+	.cart {
+	    display: none;
+	}
+	.admin-wrap{
+		padding-right: 0;
+	}
+	.admin-wrap li {
+	    margin:0 30px 0 0;
+	}
+	.banner-3 .kode_caption{
+		margin-top: 0;
+	}
+	.kode-pagination{
+		text-align: center;
+	}
+	.kode-hdg-style h1,
+	.kode-hdg-style h2,
+	.kode-hdg-style h3,
+	.kode-hdg-style h4,
+	.kode-hdg-style h1{
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    text-transform: capitalize;
+	    white-space: nowrap;
+	    line-height: normal;
+	}
+	.social-shortcode{
+		margin-bottom: 30px;
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 480px) {
+	header{
+		background-color: #000;
+		position: inherit;
+	}
+	.kode-top-bar .lungueg-wrap li{
+		margin-right: 10px;
+	}
+	.kode-top-bar .pull-right .social-style-1{
+		padding-right: 0;
+	}
+	.kode-top-bar .pull-right .social-style-1 li{
+		padding: 0 5px;
+	}
+	.kode-top-bar .searchlink{
+		display: none;
+	}
+	.kode-logo{
+		text-align: center;
+		width: 100%;
+	}
+	.kode_navigation_outr_wrap{
+		padding:0;
+		position:relative; 
+	}
+	.kode_ui_element {
+	    bottom: 0;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+	.kode_caption {
+	    margin-top: -36px;
+	    top: 50%;
+	}
+	.kode-inner-banner h6{
+		font-size: 33px;
+	}
+	.kode_caption h2 {
+	    font-size: 23px;
+	}
+	.kode-food-meta > li i {
+	    float: left;
+	    margin-bottom: 20px;
+	    width: 100%;
+	}
+	.kode-link-hd{
+		padding:0; 
+		float: left;
+		width: 100%;
+		text-align:center; 
+	}
+	.kode-food-hdg-4 h3{
+		font-size: 28px;
+	}
+	.kode-blog-des figure{
+		width: 100%;
+	}
+	.kode-blog-des .text{
+		float: left;
+		width: 100%;
+		padding: 27px 25px 0;
+	}
+	.kode-testimonial-des > figure {
+	    position: absolute;
+	    top: 40px;
+	    width: 69px;
+	}
+	.kode-testimonial-des .blockquote-2{
+		float: left;
+		width: 100%;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	.kode-testimonial-hd{
+		padding-left: 100px;
+	}
+	.header2 .kode-logo{
+		padding:30px 0; 
+	}
+	.header2 .kode-logo a{
+		width: 35%;
+	}
+	.topbar-coming-soon .logo{
+		float: left;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.coming-soon-social{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.coming-soon-dec h6{
+		font-size: 29px;
+		margin-bottom: 25px;
+	}
+	.tabs-navigation button, .tabs-navigation li{
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.tabs-navigation button span, .tabs-navigation li a{
+		margin: 0;
+	}
+	.pagination li a{
+		margin-right: 7px;
+	}
+	.price-tag {
+	    margin-top: 5px;
+	    text-align: left;
+	    width: 100%;
+	}
+	.comment_des {
+	    float: left;
+	    padding: 19px 0 0 20px;
+	    text-align: left;
+	    width: 100%;
+	}
+	.recipe-thumb > figcaption{
+		position: inherit;
+		width: 100%;
+		top: inherit;
+		left: inherit;
+	}
+	.recipe-thumb figcaption .kode_link_1{
+		width: 100%;
+	}
+	.recipe-thumb-meta{
+		padding: 0;
+		bottom: 0px;
+	}
+	.recipe-thumb-meta .rating{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.recipe-thumb-meta .rating,
+	.thumb-log{
+		width: 100%;
+		text-align: center;
+	}
+	.recipe-thumb-meta .rating a,
+	.thumb-log i{
+		display: inline-block;
+		float: none;
+	}
+	.recipe-meta li{
+		width: 100%;
+		text-align: center;
+		border: none;
+	}
+	.thumb-slider #bx-pager > a{
+		margin-right: 2px;
+	}
+	.owl-theme .owl-controls{
+		margin-right: 92px;
+	}
+	.pages-links li{
+		margin-bottom: 10px;
+	}
+	.blockquote-4 .text > p {
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	}
+	.comment_des{
+		overflow: visible;
+	}
+	.comment_des_hed{
+		position: relative;
+		overflow: visible;
+	}
+	.comment_des_hed .comment_reply{
+		position: absolute;
+		top:-45px;
+		right: 0; 
+	}
+	.kf-404-des span i, .kf-404-des span {
+	    font-size: 150px;
+	    line-height: 150px;
+	}
+	.kf-404-des h6{
+		font-size: 22px;
+		line-height: 22px;
+	}
+	.kf-404-des h5{
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.link-404 .kode_link_6{
+		padding: 18px 12px 17px;
+		margin: 0 5px;
+	}
+	.admin-wrap,
+	.pull-right,
+	.lung-wrap{
+		width: 100%;
+		text-align: center;
+	}
+	.banner-3 .kode_caption{
+		margin-top: -20px;
+	}
+	.recipe-thumb figcaption{
+		display: none;
+	}
+}
